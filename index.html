@@ -26,12 +26,6 @@
     </style>
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
     <!--<script>
-// If you're adding a number of markers, you may want to
-// drop them on the map consecutively rather than all at once.
-// This example shows how to use setTimeout() to space
-// your markers' animation.
-
-var spots = new google.maps.LatLng(48.8592863,32.1908067);
 
 /* ukraine parts */
 var ua_ark = [
@@ -215,158 +209,7 @@ var unknowns = [
   new google.maps.LatLng(47.9073615,33.3665165),
   new google.maps.LatLng(44.430474,34.128384),
   new google.maps.LatLng(44.79698,34.278696)
-  //new google.maps.LatLng(0,0),
 ];
-
-var holland = [
-  new google.maps.LatLng(51.4580373,5.3919141), /* Eindhoven Airport */
-  new google.maps.LatLng(52.3791167,4.900104),  /* Amsterdam Centraal */
-  new google.maps.LatLng(52.374375, 4.898173),  /* Oudekerksplein */
-  new google.maps.LatLng(52.375087, 4.896296),  /* Beurs van Berlage */
-  new google.maps.LatLng(52.376541, 4.900831),  /* Basiliek van de H. Nicolaas */
-  new google.maps.LatLng(52.376409, 4.902317),  /* Schreierstoren */
-  new google.maps.LatLng(52.376592, 4.897255),  /* Sex Museum */
-  new google.maps.LatLng(52.378642, 4.895033),  /* kebab house */
-  new google.maps.LatLng(52.383848, 4.901287),  /* Eye Filmmuseum and A’DAM Toren */
-  new google.maps.LatLng(52.374210, 4.912338),  /* Science Center NEMO */
-  new google.maps.LatLng(52.371715, 4.913650),  /* Het Scheepvaartmuseum and VOC-schip Amsterdam */
-  new google.maps.LatLng(52.372808, 4.900290),  /* Waag Society */
-  new google.maps.LatLng(52.372827, 4.893698),  /* Nationaal Monument */
-  new google.maps.LatLng(52.372589, 4.892591),  /* Madame Tussauds */
-  new google.maps.LatLng(52.373186, 4.891367),  /* Koninklijk Paleis Amsterdam */
-  new google.maps.LatLng(52.373680, 4.895796),  /* Condomerie */
-  new google.maps.LatLng(52.374284, 4.894309),  /* Starbucks */
-  new google.maps.LatLng(52.373877, 4.891812),  /* De Nieuwe Kerk */
-  new google.maps.LatLng(52.373516, 4.890225),  /* Mango Magna Plaza */
-  new google.maps.LatLng(52.374534, 4.883967),  /* Westerkerk */
-  new google.maps.LatLng(52.379770, 4.886129),  /* Noorderkerk */
-  new google.maps.LatLng(52.383919, 4.895033),  /* Paleis van Justitie */
-  new google.maps.LatLng(52.383100, 4.892666),  /* Wolf Atelier */
-  new google.maps.LatLng(52.367611, 4.899052),  /* Nationale Opera & Ballet and Spinoza and -pam. Evreejam- */
-  new google.maps.LatLng(52.366393, 4.906655),  /* Hortus Botanicus Amsterdam */
-  new google.maps.LatLng(52.368320, 4.903281),  /* Sant'Egidio */
-  new google.maps.LatLng(52.368498, 4.905220),  /* Nederlandse Filmacademie */
-  new google.maps.LatLng(52.369114, 4.897203),  /* Amsterdams ADR Instituut B.V. */
-  new google.maps.LatLng(52.366150, 4.900113),  /* Café Langereis */
-  new google.maps.LatLng(52.367072, 4.893076),  /* Amsterdams ADR Instituut B.V. */
-  new google.maps.LatLng(52.364140, 4.882987),  /* Leidseplein */
-  new google.maps.LatLng(52.364657, 4.883457),  /* Jamin */
-  new google.maps.LatLng(52.357846, 4.891770),  /* Heineken Experience */
-  new google.maps.LatLng(52.359989, 4.885218),  /* Rijksmuseum */
-  new google.maps.LatLng(52.358923, 4.884390),  /* Cobra Cafe */
-  new google.maps.LatLng(52.359143, 4.884039),  /* IAmsterdam Sign */
-  new google.maps.LatLng(52.359441, 4.882459),  /* Diamant Museum Amsterdam */
-  new google.maps.LatLng(52.358955, 4.883743),  /* Joy Ride Tours */
-  new google.maps.LatLng(52.358737, 4.874428),  /* Vondelpark (Flevoroute) */
-  new google.maps.LatLng(52.359145, 4.874565),  /* Vondelpark (mama baranka) */
-  new google.maps.LatLng(52.243566, 4.831068),  /* Uithorn (Lasha) */
-  new google.maps.LatLng(52.239117, 4.835643),  /* Autobedrijf J. Maas Uithoorn B.V */
-  new google.maps.LatLng(52.234489, 4.835876),  /* Chair */
-  new google.maps.LatLng(52.234970, 4.837222),  /* Amstel */
-  new google.maps.LatLng(52.236142, 4.839613),  /* Thamerkerk */
-  new google.maps.LatLng(52.241405, 4.834391),  /* Wood */
-  new google.maps.LatLng(52.314397, 4.941901),  /* Amsterdam Bijlmer ArenA */
-  new google.maps.LatLng(52.343463, 4.854009),  /* Olympisch Stadion Amsterdam */
-  new google.maps.LatLng(52.339913, 4.855340),  /* Nikon Nederland */
-  new google.maps.LatLng(52.337206, 4.855412),  /* NN Group */
-  new google.maps.LatLng(52.365382, 4.902742),  /* Hermitage Amsterdam */
-  new google.maps.LatLng(52.2925, 4.9449),  /* Fletcher Hotel Amsterdam */
-  new google.maps.LatLng(52.375321, 4.907371),  /* Restaurant Sea Palace */
-
-];
-
-var poland = [
-  new google.maps.LatLng(52.167236, 20.967889),  /* Lotnisko Chopina */
-  new google.maps.LatLng(52.219893, 20.965950),  /* Warszawa Zachodnia Peron 3 */
-]
-
-var neighborhoods = [];
-
-/* main locations array*/
-var show_all = [
-  /*russia,
-  ua_ark,
-  ua_west,
-  ua_west_lviv_visited,
-  ua_west_lviv_not_visited,
-  ua_east,
-  unknowns
-  holland,
-  poland*/
-];
-
-/* show all */
-for(var i = 0; i < show_all.length; i++ ) {
-  for(var j = 0; j < show_all[i].length; j++) {
-    neighborhoods.push(show_all[i][j]);
-  }
-}
-
-var markers = [],
-    iterator = 0,
-    map;
-
-function initialize() {
-  var mapOptions = {
-    zoom: 4,
-    center: spots
-  };
-
-  map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
-
-  drop();
-}
-
-function drop() {
-  for (var i = 0; i < neighborhoods.length; i++) {
-    addMarker();
-  }
-}
-
-function addMarker() {
-  markers.push(new google.maps.Marker({
-    position: neighborhoods[iterator],
-    map: map,
-    draggable: false/*,
-    icon: 'http://maps.google.com/mapfiles/ms/icons/green-dot.png'*/
-  }));
-
-  iterator++;
-
-  /*contentString = '<div id="content">'+
-                  '<div id="siteNotice">'+
-                  '</div>'+
-                  '<h1 id="firstHeading" class="firstHeading">Uluru</h1>'+
-                  '<div id="bodyContent">'+
-                  '<p><b>Uluru</b>, also referred to as <b>Ayers Rock</b>, is a large ' +
-                  'sandstone rock formation in the southern part of the '+
-                  'Northern Territory, central Australia. It lies 335&#160;km (208&#160;mi) '+
-                  'south west of the nearest large town, Alice Springs; 450&#160;km '+
-                  '(280&#160;mi) by road. Kata Tjuta and Uluru are the two major '+
-                  'features of the Uluru - Kata Tjuta National Park. Uluru is '+
-                  'sacred to the Pitjantjatjara and Yankunytjatjara, the '+
-                  'Aboriginal people of the area. It has many springs, waterholes, '+
-                  'rock caves and ancient paintings. Uluru is listed as a World '+
-                  'Heritage Site.</p>'+
-                  '<p>Attribution: Uluru, <a href="http://en.wikipedia.org/w/index.php?title=Uluru&oldid=297882194">'+
-                  'http://en.wikipedia.org/w/index.php?title=Uluru</a> '+
-                  '(last visited June 22, 2009).</p>'+
-                  '</div>'+
-                  '</div>',
-
-  infowindow = new google.maps.InfoWindow({
-    content: contentString
-  });
-
-  marker1 = new google.maps.LatLng(49.8406788,24.0310255), // [50.1] Kaplica Boimiv 
-
-  google.maps.event.addListener(marker1, 'click', function() {
-    infowindow.open(map,marker1);
-  });*/
-  
-}
-
-google.maps.event.addDomListener(window, 'load', initialize);
 
     </script>-->
     <script src="js/points.js"></script>
@@ -381,9 +224,11 @@ google.maps.event.addDomListener(window, 'load', initialize);
 
         var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
 
-        for (var i = 0; i < mapPoints.length; i++) {
-            for (var j = 0; j < mapPoints[i].length; j++) {
-                mycontent(map, mapPoints[i][j]);
+        for (var i = 0; i < mapPoints.length; i++) { /* countries */
+            for (var j = 0; j < mapPoints[i].length; j++) { /* cities */
+                for (var z = 0; z < mapPoints[i][j].length; z++) { /* places */
+                  mycontent(map, mapPoints[i][j][z]);
+                };
             };
         };
     }
