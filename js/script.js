@@ -1,34 +1,44 @@
-var stPetersburgData = [
+var saintPetersburgData = [
   {
-    'latitude': '59.928143',
-    'longitude': '30.362656',
-    'title': 'XXX',
-    'titleCyrillic': 'Московский Ж/Д вокзал',
-    'date': 'June 17-30, 2004',
-    'description': '',
-    'descriptionCyrillic': '',
-    'link': ''
+    "latitude": "59.928143",
+    "longitude": "30.362656",
+    "title": "XXX",
+    "titleCyrillic": "Московский Ж/Д вокзал",
+    "date": "June 17-30, 2004",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
   },
   {
-    'latitude': '59.881157',
-    'longitude': '29.906449',
-    'title': 'Grand Palace',
-    'titleCyrillic': 'Парк возле большого дворца',
-    'date': 'June 17-30, 2004',
-    'description': '',
-    'descriptionCyrillic': '',
-    'link': ''
+    "latitude": "59.881157",
+    "longitude": "29.906449",
+    "title": "",
+    "titleCyrillic": "Парк возле большого дворца",
+    "date": "June 17-30, 2004",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
   },
   {
-    'latitude': '59.885176',
-    'longitude': '29.908926',
-    'title': 'Fontan Samson',
-    'titleCyrillic': 'Фонтан Самсон',
-    'date': 'June 17-30, 2004',
-    'description': '',
-    'descriptionCyrillic': '',
-    'link': ''
+    "latitude": "59.885176",
+    "longitude": "29.908926",
+    "title": "Fontan Samson",
+    "titleCyrillic": "Фонтан Самсон",
+    "date": "June 17-30, 2004",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
   }
+];
+
+var saintPetersburg = [];
+
+var russia = [
+  saintPetersburg
+];
+
+var mapPoints = [
+  russia
 ];
 
 /*
@@ -43,21 +53,19 @@ stPetersburg.push(infoWindow('59.937079', '30.328474', 'Pamyatnik Ostap Bender',
 stPetersburg.push(infoWindow('59.996209', '29.778605', 'Pamyatnik Podvodnikam-Baltiytsam', 'Памятник Подводникам-Балтийцам', 'June 17-30, 2004'));
 stPetersburg.push(infoWindow('60.081296', '31.069050', 'Doroga zizni', 'Дорога жизни', 'June 17-30, 2004'));*/
 
-var stPetersburg = [];
-
 createObjectData();
 
 function createObjectData() {
-  for (var i = 0; i < stPetersburgData.length; i++) {
-    stPetersburg.push(infoWindow(
-      stPetersburgData[i]['latitude'],
-      stPetersburgData[i]['longitude'],
-      stPetersburgData[i]['title'],
-      stPetersburgData[i]['titleCyrillic'],
-      stPetersburgData[i]['date'],
-      stPetersburgData[i]['description'],
-      stPetersburgData[i]['descriptionCyrillic'],
-      stPetersburgData[i]['link']
+  for (var i = 0; i < saintPetersburgData.length; i++) {
+    saintPetersburg.push(infoWindow(
+      saintPetersburgData[i]['latitude'],
+      saintPetersburgData[i]['longitude'],
+      saintPetersburgData[i]['title'],
+      saintPetersburgData[i]['titleCyrillic'],
+      saintPetersburgData[i]['date'],
+      saintPetersburgData[i]['description'],
+      saintPetersburgData[i]['descriptionCyrillic'],
+      saintPetersburgData[i]['link']
     ));
   };
 }
@@ -69,7 +77,7 @@ function infoWindow(latitude, longitude, title, titleCyrillic, date, description
     'latitude': Number(latitude),
     'longitude': Number(longitude),
     'title': title,
-    'contentString1': '<div id="content">'+
+    'contentString': '<div id="content">'+
     '<div id="siteNotice">'+
     '</div>'+
     '<h1 id="firstHeading" class="firstHeading">' + title + ' / ' + titleCyrillic + '</h1>'+
@@ -84,10 +92,6 @@ function infoWindow(latitude, longitude, title, titleCyrillic, date, description
 
   return object;
 }
-
-var russia = [
-  stPetersburg
-];
 
 /* russia */
 /*,
@@ -105,20 +109,13 @@ var russia = [
   },
   {
       new google.maps.LatLng(43.292954, 41.616660),   /* Dombai 
-  }*/
+  }
 
-var warsaw = [];
 warsaw.push(infoWindow('52.167236', '20.967889', 'Lotnisko Chopina', 'Аэропорт Шопен', 'July 1;5, 2015'));
 warsaw.push(infoWindow('52.219893', '20.965950', 'Warszawa Zachodnia Peron 3', 'Западная Станция', 'July 1;5, 2015'));
 
-var polland = [
-  warsaw
-];
-
-var eindhoven = [];
 eindhoven.push(infoWindow('51.4580373', '5.3919141', 'Eindhoven Airport', 'Аэропорт Эйндховен', 'July 1;5, 2015'));
 
-var amsterdam = [];
 amsterdam.push(infoWindow('52.3791167', '4.900104', 'Amsterdam Centraal', 'Центральный вокзал', 'July 1;5, 2015', 'Is het centraal station van de Nederlandse hoofdstad Amsterdam. Het is gebouwd tussen 1881 en 1889 naar ontwerp van P.J.H. Cuypers, A.L. van Gendt (stationsgebouw) en L.J. Eijmer (stationskap). Het station telt zes perrons die via drie dwarsgangen onder de vijftien sporen (waarvan 11 reizigerssporen) bereikbaar zijn', 'Главный железнодорожный вокзал нидерландской столицы. Построен в 1881—1889 годах архитектором Питером Кейперсом при участии Адольфа Леонарда ван Гендта. В 1885 году Кейперс также спроектировал здание Государственного музея в Амстердаме, которое внешне похоже на Центральный вокзал. Это первый вокзал в Нидерландах, который был спроектирован известным архитектором. Вокзал отделяет город от порта, а в городе было проложено множество железнодорожных путей. Вокзал насчитывает шесть перронов и 15 железнодорожных путей.', 'http://www.gvb.nl/'));
 amsterdam.push(infoWindow('52.374375', '4.898173', 'Oudekerksplein', 'Старая церковь', 'July 1;5, 2015'));
 amsterdam.push(infoWindow('52.375087', '4.896296', 'Beurs van Berlage', 'Биржа Берлаге', 'July 1;5, 2015'));
@@ -171,15 +168,45 @@ amsterdam.push(infoWindow('52.339913', '4.855340', 'Nikon Nederland', '***', 'Ju
 amsterdam.push(infoWindow('52.337206', '4.855412', 'NN Group', '***', 'July 1;5, 2015'));
 amsterdam.push(infoWindow('52.365382', '4.902742', 'Hermitage Amsterdam', '***', 'July 1;5, 2015'));
 amsterdam.push(infoWindow('52.2925', '4.9449', 'Fletcher Hotel Amsterdam', '***', 'July 1;5, 2015'));
-amsterdam.push(infoWindow('52.375321', '4.907371', 'Restaurant Sea Palace', '***', 'July 1;5, 2015'));
+amsterdam.push(infoWindow('52.375321', '4.907371', 'Restaurant Sea Palace', '***', 'July 1;5, 2015'));*/
 
-var holland = [
-  eindhoven,
-  amsterdam
-];
 
-var mapPoints = [
-  russia/*,
-  polland,
-  holland*/
-];
+
+function initialize() {
+        var myLatlng = new google.maps.LatLng(48.8592863,32.1908067);
+
+        var mapOptions = {
+            zoom: 4,
+            center: myLatlng
+        };
+
+        var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+
+        for (var i = 0; i < mapPoints.length; i++) { /* countries */
+            for (var j = 0; j < mapPoints[i].length; j++) { /* cities */
+                for (var z = 0; z < mapPoints[i][j].length; z++) { /* places */
+                  mycontent(map, mapPoints[i][j][z]);
+                };
+            };
+        };
+}
+
+function mycontent(map, mapPoints) {
+  var marker = new google.maps.Marker({
+    position: new google.maps.LatLng(mapPoints.latitude, mapPoints.longitude),
+    map: map,
+    title: mapPoints.title
+  });
+
+  marker.infoWindowData = mapPoints;
+
+  google.maps.event.addListener(marker, 'click', function() {
+    var infowindow = new google.maps.InfoWindow({
+      content: marker.infoWindowData.contentString
+    });
+
+    infowindow.open(map, marker);
+  });
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
