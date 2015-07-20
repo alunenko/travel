@@ -1,4 +1,7 @@
-function infoWindow(latitude, longitude, title, cyrillic, date) {
+function infoWindow(latitude, longitude, title, cyrillic, date, description, descriptionCyrillic) {
+  var description = typeof description !== 'undefined' ? description : '',
+      descriptionCyrillic = typeof descriptionCyrillic !== 'undefined' ? descriptionCyrillic : '';
+
   var object = {
     'latitude': Number(latitude),
     'longitude': Number(longitude),
@@ -8,6 +11,8 @@ function infoWindow(latitude, longitude, title, cyrillic, date) {
     '</div>'+
     '<h1 id="firstHeading" class="firstHeading">' + title + ' / ' + cyrillic + '</h1>'+
     '<div id="bodyContent">'+
+    '<p>' + description + '</p>' +
+    '<p>' + descriptionCyrillic + '</p>' +
     '<p>visited ' + date + '</p>'+
     '</div>'+
     '</div>'
@@ -64,59 +69,59 @@ var eindhoven = [];
 eindhoven.push(infoWindow('51.4580373', '5.3919141', 'Eindhoven Airport', 'Аэропорт Эйндховен', 'July 1;5, 2015'));
 
 var amsterdam = [];
-/*amsterdam.push(infoWindow('51.4580373', '5.3919141', 'Eindhoven Airport', 'Аэропорт Эйндховен', 'July 1;5, 2015'));*/
-  /*new google.maps.LatLng(52.3791167,4.900104),  /* Amsterdam Centraal
-  new google.maps.LatLng(52.374375, 4.898173),  /* Oudekerksplein
-  new google.maps.LatLng(52.375087, 4.896296),  /* Beurs van Berlage
-  new google.maps.LatLng(52.376541, 4.900831),  /* Basiliek van de H. Nicolaas
-  new google.maps.LatLng(52.376409, 4.902317),  /* Schreierstoren
-  new google.maps.LatLng(52.376592, 4.897255),  /* Sex Museum
-  new google.maps.LatLng(52.378642, 4.895033),  /* kebab house
-  new google.maps.LatLng(52.383848, 4.901287),  /* Eye Filmmuseum and A’DAM Toren
-  new google.maps.LatLng(52.374210, 4.912338),  /* Science Center NEMO
-  new google.maps.LatLng(52.371715, 4.913650),  /* Het Scheepvaartmuseum and VOC-schip Amsterdam
-  new google.maps.LatLng(52.372808, 4.900290),  /* Waag Society
-  new google.maps.LatLng(52.372827, 4.893698),  /* Nationaal Monument
-  new google.maps.LatLng(52.372589, 4.892591),  /* Madame Tussauds
-  new google.maps.LatLng(52.373186, 4.891367),  /* Koninklijk Paleis Amsterdam
-  new google.maps.LatLng(52.373680, 4.895796),  /* Condomerie
-  new google.maps.LatLng(52.374284, 4.894309),  /* Starbucks
-  new google.maps.LatLng(52.373877, 4.891812),  /* De Nieuwe Kerk
-  new google.maps.LatLng(52.373516, 4.890225),  /* Mango Magna Plaza
-  new google.maps.LatLng(52.374534, 4.883967),  /* Westerkerk
-  new google.maps.LatLng(52.379770, 4.886129),  /* Noorderkerk
-  new google.maps.LatLng(52.383919, 4.895033),  /* Paleis van Justitie
-  new google.maps.LatLng(52.383100, 4.892666),  /* Wolf Atelier
-  new google.maps.LatLng(52.367611, 4.899052),  /* Nationale Opera & Ballet and Spinoza and -pam. Evreejam-
-  new google.maps.LatLng(52.366393, 4.906655),  /* Hortus Botanicus Amsterdam
-  new google.maps.LatLng(52.368320, 4.903281),  /* Sant'Egidio
-  new google.maps.LatLng(52.368498, 4.905220),  /* Nederlandse Filmacademie
-  new google.maps.LatLng(52.369114, 4.897203),  /* Amsterdams ADR Instituut B.V.
-  new google.maps.LatLng(52.366150, 4.900113),  /* Café Langereis
-  new google.maps.LatLng(52.367072, 4.893076),  /* Amsterdams ADR Instituut B.V.
-  new google.maps.LatLng(52.364140, 4.882987),  /* Leidseplein
-  new google.maps.LatLng(52.364657, 4.883457),  /* Jamin
-  new google.maps.LatLng(52.357846, 4.891770),  /* Heineken Experience
-  new google.maps.LatLng(52.359989, 4.885218),  /* Rijksmuseum
-  new google.maps.LatLng(52.358923, 4.884390),  /* Cobra Cafe
-  new google.maps.LatLng(52.359143, 4.884039),  /* IAmsterdam Sign
-  new google.maps.LatLng(52.359441, 4.882459),  /* Diamant Museum Amsterdam
-  new google.maps.LatLng(52.358955, 4.883743),  /* Joy Ride Tours
-  new google.maps.LatLng(52.358737, 4.874428),  /* Vondelpark (Flevoroute)
-  new google.maps.LatLng(52.359145, 4.874565),  /* Vondelpark (mama baranka)
-  new google.maps.LatLng(52.243566, 4.831068),  /* Uithorn (Lasha)
-  new google.maps.LatLng(52.239117, 4.835643),  /* Autobedrijf J. Maas Uithoorn B.V
-  new google.maps.LatLng(52.234489, 4.835876),  /* Chair
-  new google.maps.LatLng(52.234970, 4.837222),  /* Amstel
-  new google.maps.LatLng(52.236142, 4.839613),  /* Thamerkerk
-  new google.maps.LatLng(52.241405, 4.834391),  /* Wood
-  new google.maps.LatLng(52.314397, 4.941901),  /* Amsterdam Bijlmer ArenA
-  new google.maps.LatLng(52.343463, 4.854009),  /* Olympisch Stadion Amsterdam
-  new google.maps.LatLng(52.339913, 4.855340),  /* Nikon Nederland
-  new google.maps.LatLng(52.337206, 4.855412),  /* NN Group
-  new google.maps.LatLng(52.365382, 4.902742),  /* Hermitage Amsterdam
-  new google.maps.LatLng(52.2925, 4.9449),      /* Fletcher Hotel Amsterdam
-  new google.maps.LatLng(52.375321, 4.907371),  /* Restaurant Sea Palace*/
+amsterdam.push(infoWindow('52.3791167', '4.900104', 'Amsterdam Centraal', '***', 'July 1;5, 2015'));
+amsterdam.push(infoWindow('52.374375', '4.898173', 'Oudekerksplein', '***', 'July 1;5, 2015'));
+amsterdam.push(infoWindow('52.375087', '4.896296', 'Beurs van Berlage', '***', 'July 1;5, 2015'));
+amsterdam.push(infoWindow('52.376541', '4.900831', 'Basiliek van de H. Nicolaas', '***', 'July 1;5, 2015'));
+amsterdam.push(infoWindow('52.376409', '4.902317', 'Schreierstoren', '***', 'July 1;5, 2015'));
+amsterdam.push(infoWindow('52.376592', '4.897255', 'Sex Museum', '***', 'July 1;5, 2015'));
+amsterdam.push(infoWindow('52.378642', '4.895033', 'Kebab house', '***', 'July 1;5, 2015'));
+amsterdam.push(infoWindow('52.384349', '4.901264', 'Eye Filmmuseum', 'институт кино EYE', 'July 1;5, 2015'));
+amsterdam.push(infoWindow('52.383812', '4.902041', 'A’DAM Toren', 'Небоскрёб A’DAM', 'July 1;5, 2015', 'Hello, I’m A’DAM – the big tower behind Amsterdam’s Central Station'));
+amsterdam.push(infoWindow('52.374210', '4.912338', 'Science Center NEMO', '***', 'July 1;5, 2015'));
+amsterdam.push(infoWindow('52.371715', '4.913650', 'Het Scheepvaartmuseum and VOC-schip Amsterdam', '***', 'July 1;5, 2015'));
+amsterdam.push(infoWindow('52.372808', '4.900290', 'Waag Society', '***', 'July 1;5, 2015'));
+amsterdam.push(infoWindow('52.372827', '4.893698', 'Nationaal Monument', '***', 'July 1;5, 2015'));
+amsterdam.push(infoWindow('52.372589', '4.892591', 'Madame Tussauds', '***', 'July 1;5, 2015'));
+amsterdam.push(infoWindow('52.373186', '4.891367', 'Koninklijk Paleis Amsterdam', '***', 'July 1;5, 2015'));
+amsterdam.push(infoWindow('52.373680', '4.895796', 'Condomerie', '***', 'July 1;5, 2015'));
+amsterdam.push(infoWindow('52.374284', '4.894309', 'Starbucks', '***', 'July 1;5, 2015'));
+amsterdam.push(infoWindow('52.373877', '4.891812', 'De Nieuwe Kerk', '***', 'July 1;5, 2015'));
+amsterdam.push(infoWindow('52.373516', '4.890225', 'Mango Magna Plaza', '***', 'July 1;5, 2015'));
+amsterdam.push(infoWindow('52.374534', '4.883967', 'Westerkerk', '***', 'July 1;5, 2015'));
+amsterdam.push(infoWindow('52.379770', '4.886129', 'Noorderkerk', '***', 'July 1;5, 2015'));
+amsterdam.push(infoWindow('52.383919', '4.895033', 'Paleis van Justitie', '***', 'July 1;5, 2015'));
+amsterdam.push(infoWindow('52.383100', '4.892666', 'Wolf Atelier', '***', 'July 1;5, 2015'));
+amsterdam.push(infoWindow('52.367611', '4.899052', 'Nationale Opera & Ballet and Spinoza and -pam. Evreejam-', 'July 1;5, 2015'));
+amsterdam.push(infoWindow('52.366393', '4.906655', 'Hortus Botanicus Amsterdam', '***', 'July 1;5, 2015'));
+amsterdam.push(infoWindow('52.368320', '4.903281', 'Sant\'Egidio', '***', 'July 1;5, 2015'));
+amsterdam.push(infoWindow('52.368498', '4.905220', 'Nederlandse Filmacademie', '***', 'July 1;5, 2015'));
+amsterdam.push(infoWindow('52.369114', '4.897203', 'Amsterdams ADR Instituut B.V.', '***', 'July 1;5, 2015'));
+amsterdam.push(infoWindow('52.366150', '4.900113', 'Café Langereis', '***', 'July 1;5, 2015'));
+amsterdam.push(infoWindow('52.367072', '4.893076', 'Muntplein', 'Монетная башня', 'July 1;5, 2015'));
+amsterdam.push(infoWindow('52.364140', '4.882987', 'Leidseplein', '***', 'July 1;5, 2015'));
+amsterdam.push(infoWindow('52.364657', '4.883457', 'Jamin', '***', 'July 1;5, 2015'));
+amsterdam.push(infoWindow('52.357846', '4.891770', 'Heineken Experience', '***', 'July 1;5, 2015'));
+amsterdam.push(infoWindow('52.359989', '4.885218', 'Rijksmuseum', '***', 'July 1;5, 2015'));
+amsterdam.push(infoWindow('52.358923', '4.884390', 'Cobra Cafe', '***', 'July 1;5, 2015'));
+amsterdam.push(infoWindow('52.359143', '4.884039', 'IAmsterdam Sign', '***', 'July 1;5, 2015'));
+amsterdam.push(infoWindow('52.359441', '4.882459', 'Diamant Museum Amsterdam', '***', 'July 1;5, 2015'));
+amsterdam.push(infoWindow('52.358955', '4.883743', 'Joy Ride Tours', '***', 'July 1;5, 2015'));
+amsterdam.push(infoWindow('52.358737', '4.874428', 'Vondelpark (Flevoroute)', '***', 'July 1;5, 2015'));
+amsterdam.push(infoWindow('52.359145', '4.874565', 'Vondelpark (mama baranka)', '***', 'July 1;5, 2015'));
+amsterdam.push(infoWindow('52.243566', '4.831068', 'Lasha', '***', 'July 1;5, 2015'));
+amsterdam.push(infoWindow('52.239117', '4.835643', 'Autobedrijf J. Maas Uithoorn B.V', '***', 'July 1;5, 2015'));
+amsterdam.push(infoWindow('52.234489', '4.835876', 'Chair', '***', 'July 1;5, 2015'));
+amsterdam.push(infoWindow('52.234970', '4.837222', 'Amstel', '***', 'July 1;5, 2015'));
+amsterdam.push(infoWindow('52.236142', '4.839613', 'Thamerkerk', '***', 'July 1;5, 2015'));
+amsterdam.push(infoWindow('52.241405', '4.834391', 'Wood', '***', 'July 1;5, 2015'));
+amsterdam.push(infoWindow('52.314397', '4.941901', 'Amsterdam Bijlmer ArenA', '***', 'July 1;5, 2015'));
+amsterdam.push(infoWindow('52.343463', '4.854009', 'Olympisch Stadion Amsterdam', '***', 'July 1;5, 2015'));
+amsterdam.push(infoWindow('52.339913', '4.855340', 'Nikon Nederland', '***', 'July 1;5, 2015'));
+amsterdam.push(infoWindow('52.337206', '4.855412', 'NN Group', '***', 'July 1;5, 2015'));
+amsterdam.push(infoWindow('52.365382', '4.902742', 'Hermitage Amsterdam', '***', 'July 1;5, 2015'));
+amsterdam.push(infoWindow('52.2925', '4.9449', 'Fletcher Hotel Amsterdam', '***', 'July 1;5, 2015'));
+amsterdam.push(infoWindow('52.375321', '4.907371', 'Restaurant Sea Palace', '***', 'July 1;5, 2015'));
 
 var holland = [
   eindhoven,
