@@ -447,7 +447,7 @@ var ua_east = [
   new google.maps.LatLng(46.176903,34.7988354),   /* Heniches'k 
 ];
 
-/* unknowns */
+/* unknowns 
 var unknowns = [
   new google.maps.LatLng(44.5111841,34.2356621),  /* Nikitsky Botanical Garden 
   new google.maps.LatLng(44.5147121,34.2484298),  /* Ai Danil 
