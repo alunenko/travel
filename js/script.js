@@ -95,40 +95,185 @@ var saintPetersburgData = [
     "title": "Petrovsky Stadium, Small sports arena",
     "titleCyrillic": "Петровский стадион",
     "date": "June 17-30, 2004",
-    "description": "",
-    "descriptionCyrillic": "",
-    "link": ""
+    "description": "On 7th April 1924 the Leningrad governmental organizations decided to construct a multi-use stadium to develop sport in the young country. And on 16th April 1924 the Presidium of the Leningrad Executive Committee issued a decree setting up a new stadium to be built on Petrovsky Island. Alois Voevodin (originally Alois Veivoda, Czech), famous Saint-Petersburg and later Leningrad athlete and footballer, was appointed for the position of the architect and the designer.",
+    "descriptionCyrillic": "7 апреля 1924 года Ленинградские губернские организации приняли решение о строительстве многопрофильного стадиона, который верно служил бы развитию спорта в нашем городе. 16 апреля 1924 года Президиум Ленинградского Губисполкома принял Постановление о строительстве Стадиона на Петровском острове, одном из многочисленных островов города, любимом месте отдыха горожан.",
+    "link": "http://www.petrovsky.spb.ru/"
   },
   {
     "latitude": "59.937079",
     "longitude": "30.328474",
-    "title": "Ostap Bender monument",
+    "title": "Urban Sculpture Ostap Bender",
     "titleCyrillic": "Памятник Остапу Бендеру",
     "date": "June 17-30, 2004",
     "description": "",
-    "descriptionCyrillic": "",
+    "descriptionCyrillic": "Остап Бендер — главный герой романов Ильи Ильфа и Евгения Петрова «Двенадцать стульев» и «Золотой телёнок», «великий комбинатор», «идейный борец за денежные знаки», знавший «четыреста сравнительно честных способов отъёма (увода) денег». Один из самых популярных героев плутовского романа в отечественной литературе.",
     "link": ""
   },
   {
     "latitude": "59.996209",
     "longitude": "29.778605",
-    "title": "Monument Podvodnikam-Baltiytsam",
+    "title": "Memorial to the Feat submarine sailors of the Baltic Fleet in the WWII",
     "titleCyrillic": "Памятник Подводникам-Балтийцам",
     "date": "June 17-30, 2004",
     "description": "",
-    "descriptionCyrillic": "",
+    "descriptionCyrillic": "Подвигу подводников-балтийцев в годы Великой Отечественной войны",
     "link": ""
   },
   {
     "latitude": "60.081296",
     "longitude": "31.069050",
-    "title": "Doroga zizni",
+    "title": "The Road of Life, Russia (540-036b, i, ii, iv, vi)",
     "titleCyrillic": "Дорога жизни",
     "date": "June 17-30, 2004",
+    "description": "The Road of Life  was the ice road winter transport route across the frozen Lake Ladoga, which provided the only access to the besieged city of Leningrad while the perimeter in the siege was maintained by the German Army Group North and the Finnish Defence Forces. The siege lasted for 29 months from 8 September 1941, to 27 January 1944",
+    "descriptionCyrillic": "Дорога жизни — во время Великой Отечественной войны единственная транспортная магистраль через Ладожское озеро. В периоды навигации — по воде, зимой — по льду. Связывала с 12 сентября 1941 по март 1943 года блокадный Ленинград со страной. Автодорога, проложенная по льду, часто называется Ледовой дорогой жизни (официально — Военно-автомобильная дорога № 101 (№ 102))",
+    "link": "https://goo.gl/aqZ3fl"
+  }
+];
+var saintPetersburg = [];
+
+var rostovOnDonData = [
+  {
+    "latitude": "47.222616",
+    "longitude": "39.706802",
+    "title": "Bagdad, hookah-club",
+    "titleCyrillic": "Багдад, кальян-клуб",
+    "date": "December'12 - July'13",
+    "description": "",
+    "descriptionCyrillic": "«Багдад» - это кальян-клуб и ресторан одновременно, место, где можно отведать блюда практически со всех кухонь мира, покурить ароматный кальян, посмотреть на танцы восточных красавиц, и просто расслабиться, утонув в мягких подушках на широких диванчиках. ",
+    "link": "http://bagdad.gidm.ru/"
+  },
+  {
+    "latitude": "47.224836",
+    "longitude": "39.704939",
+    "title": "Astor",
+    "titleCyrillic": "Астор Сервис",
+    "date": "December'12 - July'13",
+    "description": "Mall",
+    "descriptionCyrillic": "Торговый Центр (ТЦ)",
+    "link": "http://www.astorvrostove.ru/"
+  },
+  {
+    "latitude": "47.215651",
+    "longitude": "39.721684",
+    "title": "",
+    "titleCyrillic": "Ворошиловский мост",
+    "date": "December'12 - July'13",
+    "description": "",
+    "descriptionCyrillic": "Построен в 1961—1965 по проекту инженера Н. И. Кузнецова и архитектора Ш. А. Клеймана. При сооружении моста впервые в мире были применены клеевые стыки, сварные или болтовые соединения не использовались. По мосту проходит трасса, соединяющая Ростов с городами-спутниками Батайском и Азовом.",
+    "link": "https://goo.gl/FvSyfF"
+  },
+  {
+    "latitude": "47.100985",
+    "longitude": "39.412959",
+    "title": "",
+    "titleCyrillic": "Азов",
+    "date": "December'12 - July'13",
+    "description": "",
+    "descriptionCyrillic": "Азов (прежние наименования Тана (XII—XV вв.), Азак (XVI—XVII вв.)) — город в Ростовской области, административный центр Азовского района. Население — 81 995[2] чел. (2015).",
+    "link": "https://goo.gl/XofgCv"
+  },
+  {
+    "latitude": "47.220601",
+    "longitude": "39.693413",
+    "title": "",
+    "titleCyrillic": "Главный автовокзал",
+    "date": "December'12 - July'13",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": "http://www.donavto.ru/"
+  },
+  {
+    "latitude": "47.235847",
+    "longitude": "39.798890",
+    "title": "Office interno.ru",
+    "titleCyrillic": "Офис Интерно.ру",
+    "date": "December'12 - July'13",
+    "description": "",
+    "descriptionCyrillic": "Мы разрабатываем оригинальный графический дизайн и фирменный стиль компаний; рисуем авторские иллюстрации для веб-сайтов, глянцевых журналов, рекламной полиграфии и мобильного контента; создаем интерактивные рич-медиа и баннеры; флэш-анимацию для интернета, телевидения и торговых площадок; проектируем игры и интерфейсы; придумываем мультимедиа-презентации продуктов и идей. А кроме того, всегда обеспечиваем грамотную техническую реализацию своих проектов и высокий уровень их информационной защищенности.",
+    "link": "http://interno.ru/"
+  },
+  {
+    "latitude": "47.241186",
+    "longitude": "39.829976",
+    "title": "Rent apartment",
+    "titleCyrillic": "Снимал жилье",
+    "date": "December'12 - July'13",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
+  },
+  {
+    "latitude": "47.290268",
+    "longitude": "39.846698",
+    "title": "Mall",
+    "titleCyrillic": "Торговый Центр",
+    "date": "December'12 - July'13",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
+  },
+  {
+    "latitude": "47.242388",
+    "longitude": "39.764266",
+    "title": "Hotel",
+    "titleCyrillic": "Гостинница",
+    "date": "December'12 - July'13",
     "description": "",
     "descriptionCyrillic": "",
     "link": ""
   }
+];
+var rostovOnDon = [];
+
+var teberdaData = [
+{
+    "latitude": "43.443700",
+    "longitude": "41.744376",
+    "title": "",
+    "titleCyrillic": "Теберда",
+    "date": "'96",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
+  }
+];
+var teberda = [];
+
+var dombaiData = [
+{
+    "latitude": "43.292954",
+    "longitude": "41.616660",
+    "title": "",
+    "titleCyrillic": "Домбай",
+    "date": "'96",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
+  }
+];
+var dombai = [];
+
+var arhuzData = [
+{
+    "latitude": "43.562810",
+    "longitude": "41.280212",
+    "title": "",
+    "titleCyrillic": "Архыз, туристическая база Алания",
+    "date": "May 2003",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
+  }
+];
+var arhuz = [];
+
+var russia = [
+  saintPetersburg,
+  rostovOnDon,
+  teberda,
+  dombai,
+  arhuz
 ];
 
 var warsawData = [
@@ -153,6 +298,11 @@ var warsawData = [
     "link": ""
   }
 ];
+var warsaw = [];
+
+var poland = [
+  warsaw
+];
 
 var eindhovenData = [
   {
@@ -166,26 +316,36 @@ var eindhovenData = [
     "link": ""
   }
 ];
+var eindhoven = [];
+
+var amsterdamData = [
+  {
+    "latitude": "52.3791167",
+    "longitude": "4.900104",
+    "title": "Amsterdam Centraal",
+    "titleCyrillic": "Центральный вокзал",
+    "date": "July 1;5, 2015",
+    "description": "Is het centraal station van de Nederlandse hoofdstad Amsterdam. Het is gebouwd tussen 1881 en 1889 naar ontwerp van P.J.H. Cuypers, A.L. van Gendt (stationsgebouw) en L.J. Eijmer (stationskap). Het station telt zes perrons die via drie dwarsgangen onder de vijftien sporen (waarvan 11 reizigerssporen) bereikbaar zijn",
+    "descriptionCyrillic": "Главный железнодорожный вокзал нидерландской столицы. Построен в 1881—1889 годах архитектором Питером Кейперсом при участии Адольфа Леонарда ван Гендта. В 1885 году Кейперс также спроектировал здание Государственного музея в Амстердаме, которое внешне похоже на Центральный вокзал. Это первый вокзал в Нидерландах, который был спроектирован известным архитектором. Вокзал отделяет город от порта, а в городе было проложено множество железнодорожных путей. Вокзал насчитывает шесть перронов и 15 железнодорожных путей.",
+    "link": "http://www.gvb.nl/"
+  }
+];
+var amsterdam = [];
+
+var netherlands = [
+  eindhoven,
+  amsterdam
+];
 
 var datas = [
   ['saintPetersburgData', 'saintPetersburg'],
+  ['rostovOnDonData', 'rostovOnDon'],
+  ['teberdaData', 'teberda'],
+  ['dombaiData', 'dombai'],
+  ['arhuzData', 'arhuz'],
   ['warsawData', 'warsaw'],
-  ['eindhovenData', 'eindhoven']
-];
-
-var saintPetersburg = [];
-var russia = [
-  saintPetersburg
-];
-
-var warsaw = [];
-var poland = [
-  warsaw
-];
-
-var eindhoven = [];
-var netherlands = [
-  eindhoven
+  ['eindhovenData', 'eindhoven'],
+  ['amsterdamData', 'amsterdam']
 ];
 
 var mapPoints = [
@@ -225,7 +385,7 @@ function infoWindow(latitude, longitude, title, titleCyrillic, date, description
     '</div>'+
     '<h1 id="firstHeading" class="firstHeading">' + title + ' / ' + titleCyrillic + '</h1>'+
     '<div id="bodyContent">'+
-    link +
+    '<a href="' + link + '" target="_blank">' + link + '</a>' +
     '<p>' + description + '</p>' +
     '<p>' + descriptionCyrillic + '</p>' +
     '<p>visited ' + date + '</p>'+
@@ -236,16 +396,7 @@ function infoWindow(latitude, longitude, title, titleCyrillic, date, description
   return object;
 }
 
-/* russia */
 /*
-  new google.maps.LatLng(47.2610085,39.628),      /* Rostov-on-Don 
-  new google.maps.LatLng(47.0908465,39.4210618),  /* Azov 
-  new google.maps.LatLng(0,0),  /* Alania 
-  new google.maps.LatLng(43.443700, 41.744376),   /* Teberda 
-  new google.maps.LatLng(43.292954, 41.616660),   /* Dombai 
-  new google.maps.LatLng(43.562810,41.280212)  /* Arhuz 
-
-amsterdam.push(infoWindow('52.3791167', '4.900104', 'Amsterdam Centraal', 'Центральный вокзал', 'July 1;5, 2015', 'Is het centraal station van de Nederlandse hoofdstad Amsterdam. Het is gebouwd tussen 1881 en 1889 naar ontwerp van P.J.H. Cuypers, A.L. van Gendt (stationsgebouw) en L.J. Eijmer (stationskap). Het station telt zes perrons die via drie dwarsgangen onder de vijftien sporen (waarvan 11 reizigerssporen) bereikbaar zijn', 'Главный железнодорожный вокзал нидерландской столицы. Построен в 1881—1889 годах архитектором Питером Кейперсом при участии Адольфа Леонарда ван Гендта. В 1885 году Кейперс также спроектировал здание Государственного музея в Амстердаме, которое внешне похоже на Центральный вокзал. Это первый вокзал в Нидерландах, который был спроектирован известным архитектором. Вокзал отделяет город от порта, а в городе было проложено множество железнодорожных путей. Вокзал насчитывает шесть перронов и 15 железнодорожных путей.', 'http://www.gvb.nl/'));
 amsterdam.push(infoWindow('52.374375', '4.898173', 'Oudekerksplein', 'Старая церковь', 'July 1;5, 2015'));
 amsterdam.push(infoWindow('52.375087', '4.896296', 'Beurs van Berlage', 'Биржа Берлаге', 'July 1;5, 2015'));
 amsterdam.push(infoWindow('52.376541', '4.900831', 'De Basiliek van de H. Nicolaas', 'Церковь Св. Николая', 'July 1;5, 2015', 'The St. Nicholas’ parish in Amsterdam’s vibrant city center is made up of six roman catholic churches: Basiliek van de H. Nicolaas, Petrus & Paulus (De Papegaai), Franciscus Xaverius (Krijtberg), Onze Lieve Vrouwekerk, the Begijnhofkapel and the Mozes and Aäronkerk.', 'Церковь Св. Николая состоит из шести римских католических церквей: Basiliek van de H. Nicolaas, Petrus & Paulus (De Papegaai), Franciscus Xaverius (Krijtberg), Onze Lieve Vrouwekerk, the Begijnhofkapel and the Mozes and Aäronkerk'));
