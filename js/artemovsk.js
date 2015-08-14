@@ -1,9 +1,9 @@
 var artemovskData = [
   {
-    "latitude": "43.443700",
-    "longitude": "41.744376",
+    "latitude": "48.594471",
+    "longitude": "38.026651",
     "title": "",
-    "titleCyrillic": "Артемовск",
+    "titleCyrillic": "Завод шампанских вин",
     "date": "",
     "description": "",
     "descriptionCyrillic": "",
