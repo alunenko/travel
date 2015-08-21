@@ -1,40 +1,298 @@
-var lvivData = [];
+var lvivData = [
+  {
+    "latitude": "49.8008965",
+    "longitude": "23.9422635",
+    "title": "",
+    "titleCyrillic": "Скнилов",
+    "date": "",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
+  },
+  {
+    "latitude": "49.824252",
+    "longitude": "23.9920326",
+    "title": "",
+    "titleCyrillic": "Кульпарковский парк",
+    "date": "",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
+  },
+  {
+    "latitude": "49.8230022",
+    "longitude": "23.9943049",
+    "title": "",
+    "titleCyrillic": "Музей -Труша-",
+    "date": "",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
+  },
+  {
+    "latitude": "49.8238193",
+    "longitude": "23.997443",
+    "title": "",
+    "titleCyrillic": "Писковые озера",
+    "date": "",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
+  },
+  {
+    "latitude": "49.8258951",
+    "longitude": "24.0033074",
+    "title": "",
+    "titleCyrillic": "Ботанический сад ЛНУ",
+    "date": "",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
+  },
+  {
+    "latitude": "49.8353277",
+    "longitude": "24.0144292",
+    "title": "",
+    "titleCyrillic": "Политехника",
+    "date": "",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
+  },
+  {
+    "latitude": "49.8297098",
+    "longitude": "24.0042998",
+    "title": "",
+    "titleCyrillic": "Палац Спорта",
+    "date": "",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
+  },
+  {
+    "latitude": "49.8384128",
+    "longitude": "24.0196595",
+    "title": "",
+    "titleCyrillic": "Парк Франко",
+    "date": "",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
+  },
+  {
+    "latitude": "49.8401739",
+    "longitude": "24.0083423",
+    "title": "",
+    "titleCyrillic": "улица Одесская",
+    "date": "",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
+  },
+  {
+    "latitude": "49.842426",
+    "longitude": "24.0097781",
+    "title": "",
+    "titleCyrillic": "пл. Князя Святослава /парковка/",
+    "date": "",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
+  },
+  {
+    "latitude": "49.8380642",
+    "longitude": "24.0045399",
+    "title": "",
+    "titleCyrillic": "Синагога Эдельвейс",
+    "date": "",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
+  },
+  {
+    "latitude": "49.8371549",
+    "longitude": "24.0139563",
+    "title": "",
+    "titleCyrillic": "Сквер возле Св. Юра",
+    "date": "",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
+  },
+  {
+    "latitude": "49.8435689",
+    "longitude": "24.0281375",
+    "title": "",
+    "titleCyrillic": "пл. Вечевая",
+    "date": "",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
+  },
+  {
+    "latitude": "49.84184",
+    "longitude": "24.0312977",
+    "title": "",
+    "titleCyrillic": "Ратуша",
+    "date": "",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
+  },
+  {
+    "latitude": "49.8443892",
+    "longitude": "24.0459111",
+    "title": "",
+    "titleCyrillic": "Парк",
+    "date": "",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
+  },
+  {
+    "latitude": "49.8324605",
+    "longitude": "24.0561303",
+    "title": "",
+    "titleCyrillic": "Личаковское кладбище",
+    "date": "",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
+  },
+  {
+    "latitude": "49.836602",
+    "longitude": "24.023049",
+    "title": "",
+    "titleCyrillic": "Колокольня греко-католической церкви Святого Духа",
+    "date": "",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
+  },
+  {
+    "latitude": "49.8386637",
+    "longitude": "24.012947",
+    "title": "",
+    "titleCyrillic": "Храм Св. Юра",
+    "date": "",
+    "description": "",
+    "descriptionCyrillic": "Карта Львов -от святогорской горы до высокозамковой-. [01.1]",
+    "link": ""
+  },
+  {
+    "latitude": "49.83692",
+    "longitude": "24.0048627",
+    "title": "",
+    "titleCyrillic": "Костел Св. Ольги и Елизаветы",
+    "date": "",
+    "description": "",
+    "descriptionCyrillic": "Карта Львов -от святогорской горы до высокозамковой-. [02.1]",
+    "link": ""
+  },
+  {
+    "latitude": "49.8400355",
+    "longitude": "24.0137054",
+    "title": "Circus",
+    "titleCyrillic": "Цирк",
+    "date": "",
+    "description": "",
+    "descriptionCyrillic": "Карта Львов -от святогорской горы до высокозамковой-. [03.1]",
+    "link": ""
+  },
+  {
+    "latitude": "49.8371847",
+    "longitude": "24.0166576",
+    "title": "Hotel Dnister",
+    "titleCyrillic": "Отель Днистер",
+    "date": "",
+    "description": "",
+    "descriptionCyrillic": "Карта Львов -от святогорской горы до высокозамковой-. [04.1]",
+    "link": ""
+  },
+  {
+    "latitude": "49.8351583",
+    "longitude": "24.0174557",
+    "title": "",
+    "titleCyrillic": "Костел Марии Магдалины. Органный зал",
+    "date": "",
+    "description": "",
+    "descriptionCyrillic": "Карта Львов -от святогорской горы до высокозамковой-. [05.1]",
+    "link": ""
+  },
+  {
+    "latitude": "49.834913",
+    "longitude": "24.0187292",
+    "title": "",
+    "titleCyrillic": "Памятник жертвам комунистических преступлений",
+    "date": "",
+    "description": "",
+    "descriptionCyrillic": "Карта Львов -от святогорской горы до высокозамковой-. [06.1]",
+    "link": ""
+  },
+  {
+    "latitude": "49.8338164",
+    "longitude": "24.0201585",
+    "title": "",
+    "titleCyrillic": "Госпиталь Св. Лазара",
+    "date": "",
+    "description": "",
+    "descriptionCyrillic": "Карта Львов -от святогорской горы до высокозамковой-. [07.1]",
+    "link": ""
+  },
+  {
+    "latitude": "49.835867",
+    "longitude": "24.021872",
+    "title": "",
+    "titleCyrillic": "Палац Князей Сапег",
+    "date": "",
+    "description": "",
+    "descriptionCyrillic": "Карта Львов -от святогорской горы до высокозамковой-. [08.1]",
+    "link": ""
+  },
+  {
+    "latitude": "49.8323934",
+    "longitude": "24.0240782",
+    "title": "",
+    "titleCyrillic": "Форт",
+    "date": "",
+    "description": "",
+    "descriptionCyrillic": "Карта Львов -от святогорской горы до высокозамковой-. [09.1]",
+    "link": ""
+  },
+  {
+    "latitude": "49.8339112",
+    "longitude": "24.0267264",
+    "title": "",
+    "titleCyrillic": "Цитадель1",
+    "date": "",
+    "description": "",
+    "descriptionCyrillic": "Карта Львов -от святогорской горы до высокозамковой-. [09.1]",
+    "link": ""
+  },
+  {
+    "latitude": "49.8354557",
+    "longitude": "24.023531",
+    "title": "",
+    "titleCyrillic": "Цитадель2",
+    "date": "",
+    "description": "",
+    "descriptionCyrillic": "Карта Львов -от святогорской горы до высокозамковой-. [09.1]",
+    "link": ""
+  },
+  {
+    "latitude": "49.836467",
+    "longitude": "24.022690",
+    "title": "",
+    "titleCyrillic": "Памятник Маркияну Шашкевичу",
+    "date": "",
+    "description": "",
+    "descriptionCyrillic": "Карта Львов -от святогорской горы до высокозамковой-. [10.1]",
+    "link": ""
+  },
+];
 var lviv = [];
 
 /*
-
-visited
-
-  new google.maps.LatLng(49.824252,23.9920326),  /* Kul'parkivs'kyi park 
-  new google.maps.LatLng(49.8230022,23.9943049), /* Museum Trusha 
-  new google.maps.LatLng(49.8238193,23.997443),  /* park Piskovi Ozera 
-  new google.maps.LatLng(49.8258951,24.0033074), /* BotSad LNU 
-  new google.maps.LatLng(49.8353277,24.0144292), /* Politehnika 
-  new google.maps.LatLng(49.8297098,24.0042998), /* Palac sporta 
-  new google.maps.LatLng(49.8384128,24.0196595), /* Park Franko 
-  new google.maps.LatLng(49.8317146,24.0212702), /* Lviv Cytadel 
-  new google.maps.LatLng(49.8401739,24.0083423), /* Odesska street 
-  new google.maps.LatLng(49.842426,24.0097781),  /* Pl. Knyazya Svjatoslava \Parkovka\ 
-  new google.maps.LatLng(49.8380642,24.0045399), /* Senagoga Edel'veis 
-  new google.maps.LatLng(49.8371549,24.0139563), /* Skver near Sv. Yura 
-  new google.maps.LatLng(49.8435689,24.0281375), /* Pl. Vicheva 
-  new google.maps.LatLng(49.84184,24.0312977),   /* Ratusha 
-  new google.maps.LatLng(49.8443892,24.0459111), /* park 
-  new google.maps.LatLng(49.8324605,24.0561303), /* Lychakiv cvintar 
-
-                                                 /* Lviv: ot svyatogorskoy gory do vysokozamkovoy 
-  new google.maps.LatLng(49.8386637,24.012947),  /* [01.1] Sv. Yra 
-  new google.maps.LatLng(49.83692,24.0048627),   /* [02.1] Costel Sv. Ol'gi and Elisavety 
-  new google.maps.LatLng(49.8400355,24.0137054), /* [03.1] Circus
-  new google.maps.LatLng(49.8371847,24.0166576), /* [04.1] Hotel Dnister
-  new google.maps.LatLng(49.8351583,24.0174557), /* [05.1] Costel Marii Magdaliny. Organnyi zal 
-  new google.maps.LatLng(49.834913,24.0187292),  /* [06.1] Zertvam comunist. zlochiniv 
-  new google.maps.LatLng(49.8338164,24.0201585), /* [07.1] Shpital' Sv. Lazara 
-  new google.maps.LatLng(49.8351331,24.0208015), /* [08.1] Palac knyaziv Sapeg 
-  new google.maps.LatLng(49.8323934,24.0240782), /* [09.1] Lviv Cytadel 
-  new google.maps.LatLng(49.8339112,24.0267264), /* [09.1] Lviv Cytadel 
-  new google.maps.LatLng(49.8354557,24.023531),  /* [09.1] Lviv Cytadel 
-  new google.maps.LatLng(49.8356969,24.0217221), /* [10.1] Pam. Markiyan Shashkevich 
   new google.maps.LatLng(49.8396942,24.0212077), /* [12.1] Pam'ytnyk Franko 
   new google.maps.LatLng(49.8402222,24.0223818), /* [13.1] Univer Franko 
   new google.maps.LatLng(49.8411658,24.0215827), /* [14.1] Sientists house 
@@ -52,6 +310,7 @@ visited
   new google.maps.LatLng(49.8414994,24.0290273), /* [28.1] Costel Iezuitiv 
   new google.maps.LatLng(49.8439534,24.0262666), /* [29.1] Nac. Ac. theatre opery i baleta Solomii Krushel'nickoi 
   new google.maps.LatLng(49.8441843,24.0275387), /* [30.1] Nac. Ac. ua dramm theatre Marii Zan'kovec'koi 
+  new google.maps.LatLng(49.8406788,24.0310255), /* [50.1] Kaplica Boimiv 
   new google.maps.LatLng(49.8481982,24.0391314), /* [01.2] Vysokiy Zamok 
   new google.maps.LatLng(49.8485025,24.0373377), /* [02.2] Park Vysokiy Zamok 
   new google.maps.LatLng(49.842833,24.0356259),  /* [10.2] Porohova veza 
@@ -67,6 +326,7 @@ visited
   new google.maps.LatLng(49.8436155,24.0293321), /* [32.2] Cerkva Preobrazenija Gospodn'ogo 
   new google.maps.LatLng(49.8433496,24.0301937), /* [33.2] Armjansky sobor 
   new google.maps.LatLng(49.8432332,24.0306651), /* [33.2] Armjansky ansambl' 
+  new google.maps.LatLng(49.8427049,24.032317),  /* [34.2] Museum Apteka 'under black eagle' 
   new google.maps.LatLng(49.841494,24.0318174),  /* [35.2] Pl. Runok 
   new google.maps.LatLng(49.8411407,24.0332698), /* [37.2] Maisternya Shokolada 
   new google.maps.LatLng(49.8393918,24.03444),   /* [38.2] Costel Bernardincev 
@@ -102,11 +362,9 @@ not visited
   new google.maps.LatLng(49.8415153,24.036849),  /* [28.2] Galitske namisnuctva house 
   new google.maps.LatLng(49.8409536,24.036945),  /* [29.2] Palac gubernatoriv 
   new google.maps.LatLng(49.8411488,24.0360054), /* [30.2] Pam. Chernovolu 
-  new google.maps.LatLng(49.8427049,24.032317),  /* [34.2] Museum Apteka 'under black eagle' 
   new google.maps.LatLng(49.841306,24.032288),   /* [36.2] Kruivka 
   new google.maps.LatLng(49.8430807,24.0281174), /* [41.2] Nac. museum 
   new google.maps.LatLng(49.8425959,24.028472),  /* [42.2] Palac Dedushinskih 
   new google.maps.LatLng(49.8373139,24.0285226), /* [20.1] Pam. Tudoru 
   new google.maps.LatLng(49.8399354,24.0281248), /* [25.1] Gausner House 
-  new google.maps.LatLng(49.8406788,24.0310255), /* [50.1] Kaplica Boimiv 
 */

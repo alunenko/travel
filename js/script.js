@@ -25,11 +25,26 @@ var ukraine = [
   kasianivka,
   donieck,
   artemovsk,
+  svyatohirsk,
   soledar,
+  kharkiv,
+  poltava,
+  zaporizhia,
+  dnepropetrovsk,
   kryvyiRih,
+  kyiv,
+  henichesk,
   ark,
+  cherkasy,
+  vilshana,
+  chygirin,
+  uman,
+  odessa,
+  kruhlyi,
+  bukovel,
+  yaremche,
+  mukacheve,
   lviv,
-  unnamed
 ];
 
 var poland = [
@@ -42,7 +57,7 @@ var netherlands = [
 ];
 
 var datas = [
-  /*['saintPetersburgData', 'saintPetersburg'],
+  ['saintPetersburgData', 'saintPetersburg'],
   ['rostovOnDonData', 'rostovOnDon'],
   ['teberdaData', 'teberda'],
   ['dombaiData', 'dombai'],
@@ -65,14 +80,29 @@ var datas = [
   ['kasianivkaData', 'kasianivka'],
   ['donieckData', 'donieck'],
   ['artemovskData', 'artemovsk'],
+  ['svyatohirskData', 'svyatohirsk'],
   ['soledarData', 'soledar'],
+  ['kharkivData', 'kharkiv'],
+  ['poltavaData', 'poltava'],
+  ['zaporizhiaData', 'zaporizhia'],
+  ['dnepropetrovskData', 'dnepropetrovsk'],
   ['kryvyiRihData', 'kryvyiRih'],
+  ['kyivData', 'kyiv'],
+  ['henicheskData', 'henichesk'],
   ['arkData', 'ark'],
-  ['lvivData', 'lviv'],*/
-  ['unnamedData', 'unnamed'],
-  /*['warsawData', 'warsaw'],
+  ['chygirinData', 'chygirin'],
+  ['cherkasyData', 'cherkasy'],
+  ['vilshanaData', 'vilshana'],
+  ['umanData', 'uman'],
+  ['odessaData', 'odessa'],
+  ['kruhlyiData', 'kruhlyi'],
+  ['bukovelData', 'bukovel'],
+  ['yaremcheData', 'yaremche'],
+  ['mukacheveData', 'mukacheve'],
+  ['lvivData', 'lviv'],
+  ['warsawData', 'warsaw'],
   ['eindhovenData', 'eindhoven'],
-  ['amsterdamData', 'amsterdam']*/
+  ['amsterdamData', 'amsterdam']
 ];
 
 createObjectData(datas);
