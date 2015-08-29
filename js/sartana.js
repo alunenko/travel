@@ -1,9 +1,9 @@
 var sartanaData = [
   {
-    "latitude": "47.171112",
-    "longitude": "37.695884",
+    "latitude": "47.170412",
+    "longitude": "37.696839",
     "title": "",
-    "titleCyrillic": "Сартана",
+    "titleCyrillic": "Деревня Вашуры",
     "date": "",
     "description": "",
     "descriptionCyrillic": "",
