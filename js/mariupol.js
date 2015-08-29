@@ -263,7 +263,7 @@ var mariupolData = [
     "latitude": "47.092463",
     "longitude": "37.542024",
     "title": "",
-    "titleCyrillic": " Дворца Культуры Маркохим",
+    "titleCyrillic": "Дворца Культуры Маркохим",
     "date": "",
     "description": "",
     "descriptionCyrillic": "",

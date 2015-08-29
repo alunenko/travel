@@ -118,13 +118,14 @@ function createObjectData(datas) {
         eval(datas[i][0])[j]['date'],
         eval(datas[i][0])[j]['description'],
         eval(datas[i][0])[j]['descriptionCyrillic'],
-        eval(datas[i][0])[j]['link']
+        eval(datas[i][0])[j]['link'],
+        eval(datas[i][0])[j]['visited']
     ));
     }
   };
 }
 
-function infoWindow(latitude, longitude, title, titleCyrillic, date, description, descriptionCyrillic, link) {
+function infoWindow(latitude, longitude, title, titleCyrillic, date, description, descriptionCyrillic, link, visited) {
   var object = {
     'latitude': Number(latitude),
     'longitude': Number(longitude),
@@ -139,7 +140,8 @@ function infoWindow(latitude, longitude, title, titleCyrillic, date, description
     '<p>' + descriptionCyrillic + '</p>' +
     '<p>visited ' + date + '</p>'+
     '</div>'+
-    '</div>'
+    '</div>',
+    'visited': visited
   }
 
   return object;
@@ -172,15 +174,21 @@ function initialize() {
 }
 
 function mycontent(map, mapPoints) {
+  var pinColor = "00FF00",
+    icon = null;
+
+  mapPoints.visited && (icon = "http://maps.google.com/mapfiles/ms/icons/green-dot.png");
+
   var marker = new google.maps.Marker({
     position: new google.maps.LatLng(mapPoints.latitude, mapPoints.longitude),
     map: map,
-    title: mapPoints.title
+    title: mapPoints.title,
+    icon: icon
   });
 
   marker.infoWindowData = mapPoints;
 
-  google.maps.event.addListener(marker, 'click', function() {
+  google.maps.event.addListener(marker, 'click', function() {debugger;
     var infowindow = new google.maps.InfoWindow({
       content: marker.infoWindowData.contentString
     });

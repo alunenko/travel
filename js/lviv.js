@@ -173,11 +173,21 @@ var lvivData = [
     "latitude": "49.842264",
     "longitude": "24.033062",
     "title": "",
-    "titleCyrillic": "Итальянский дворик",
+    "titleCyrillic": "Італійське подвір’я",
     "date": "24.08.2014",
     "description": "",
     "descriptionCyrillic": "Львівський історичний музей – один з найстаріших і найбагатших музеїв України, заснований у 1893 році. Датою другого народження музею можна вважати 1940 р., коли розташовані поряд Історичний музей м. Львова та Національний музей імені короля Яна ІІІ (засн. 1908 р.) були об'єднані в одну установу – Львівський історичний музей (ЛІМ). До складу фондового зібрання новоутвореного музею увійшли також окремі колекції колишніх львівських музеїв, зокрема, Музею імені князів Любомирських, Музею Наукового Товариства імені Шевченка, Музею Ставропігійського інституту.",
     "link": "http://www.lhm.lviv.ua"
+  },
+  {
+    "latitude": "49.8411407",
+    "longitude": "24.0332698",
+    "title": "",
+    "titleCyrillic": "Майстерня Шоколаду",
+    "date": "",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
   },
   {
     "latitude": "49.8386637",
@@ -319,16 +329,17 @@ var lvivData = [
     "descriptionCyrillic": "Карта Львов -от святогорской горы до высокозамковой-. [10.1]",
     "link": ""
   },
-  /*{
+  {
     "latitude": "49.837154",
     "longitude": "24.023218",
     "title": "",
     "titleCyrillic": "Пам'ятник рюкзаку",
-    "date": "X",
+    "date": "",
     "description": "",
     "descriptionCyrillic": "Карта Львов -от святогорской горы до высокозамковой-. [11.1]",
-    "link": ""
-  },*/
+    "link": "",
+    "visited": 1
+  },
   {
     "latitude": "49.8396942",
     "longitude": "24.0212077",
@@ -823,62 +834,503 @@ var lvivData = [
     "latitude": "49.8411488",
     "longitude": "24.0360054",
     "title": "",
-    "titleCyrillic": "Пам'ятник Вячеславу Чорноволу",
-    "date": "X",
+    "titleCyrillic": "Пам'ятник В'ячеславі Чорноволу",
+    "date": "*",
     "description": "",
     "descriptionCyrillic": "Карта Львов -от святогорской горы до высокозамковой-. [30.2].",
+    "link": ""
+  },
+  {
+    "latitude": "49.8395998",
+    "longitude": "24.036963",
+    "title": "",
+    "titleCyrillic": "Давній костел кларисок",
+    "date": "*",
+    "description": "",
+    "descriptionCyrillic": "Карта Львов -от святогорской горы до высокозамковой-. [31.2]. Нині: Музей сакральної скульптури *Творчість Івана Георгія Пінзеля*",
+    "link": ""
+  },
+  {
+    "latitude": "49.8436155",
+    "longitude": "24.0293321",
+    "title": "",
+    "titleCyrillic": "Церква Преображення Господнього",
+    "date": "*",
+    "description": "",
+    "descriptionCyrillic": "Карта Львов -от святогорской горы до высокозамковой-. [32.2].",
+    "link": ""
+  },
+  {
+    "latitude": "49.8433496",
+    "longitude": "24.0301937",
+    "title": "",
+    "titleCyrillic": "Собор Успіня Пресвятої Богородиці",
+    "date": "*",
+    "description": "",
+    "descriptionCyrillic": "Карта Львов -от святогорской горы до высокозамковой-. [33.2]. Ансамбль споруд вірменської громади.",
+    "link": ""
+  },
+  {
+    "latitude": "49.8432332",
+    "longitude": "24.0306651",
+    "title": "",
+    "titleCyrillic": "Ансамбль споруд вірменської громади",
+    "date": "*",
+    "description": "",
+    "descriptionCyrillic": "Карта Львов -от святогорской горы до высокозамковой-. [33.2].",
+    "link": ""
+  },
+  {
+    "latitude": "49.8427049",
+    "longitude": "24.032317",
+    "title": "",
+    "titleCyrillic": "Аптека-музей *Під чорним орлом*",
+    "date": "04.08.2015",
+    "description": "",
+    "descriptionCyrillic": "Карта Львов -от святогорской горы до высокозамковой-. [34.2].",
+    "link": ""
+  },
+  {
+    "latitude": "49.841494",
+    "longitude": "24.0318174",
+    "title": "",
+    "titleCyrillic": "Площа Ринок",
+    "date": "*",
+    "description": "",
+    "descriptionCyrillic": "Карта Львов -от святогорской горы до высокозамковой-. [35.2].",
+    "link": ""
+  },
+  /*{
+    "latitude": "49.841306",
+    "longitude": "24.032288",
+    "title": "",
+    "titleCyrillic": "Кнайпа *Криївка*",
+    "date": "X",
+    "description": "",
+    "descriptionCyrillic": "Карта Львов -от святогорской горы до высокозамковой-. [36.2].",
+    "link": ""
+  },*/
+  {
+    "latitude": "49.840989",
+    "longitude": "24.033145",
+    "title": "",
+    "titleCyrillic": "Пам'ятник Леопольдові фон Захер-Мазохові",
+    "date": "*",
+    "description": "",
+    "descriptionCyrillic": "Карта Львов -от святогорской горы до высокозамковой-. [37.2].",
+    "link": ""
+  },
+  {
+    "latitude": "49.8393918",
+    "longitude": "24.03444",
+    "title": "",
+    "titleCyrillic": "Ансамбль давнього костелу бернардинців",
+    "date": "*",
+    "description": "",
+    "descriptionCyrillic": "Карта Львов -от святогорской горы до высокозамковой-. [38.2]. Нині: Храм св. Андрія Первозданного оо.",
+    "link": ""
+  },
+  /*[39.2] див. [30.1]*/
+  /*[40.2] див. [29.1]*/
+  {
+    "latitude": "49.8430807",
+    "longitude": "24.0281174",
+    "title": "",
+    "titleCyrillic": "Національний музей",
+    "date": "*",
+    "description": "",
+    "descriptionCyrillic": "Карта Львов -от святогорской горы до высокозамковой-. [41.2].",
+    "link": ""
+  },
+  {
+    "latitude": "49.8425959",
+    "longitude": "24.028472",
+    "title": "",
+    "titleCyrillic": "Давній палац Дідушинських",
+    "date": "*",
+    "description": "",
+    "descriptionCyrillic": "Карта Львов -от святогорской горы до высокозамковой-. [42.2]. Нині: Державний природознавчий музей НАН України.",
+    "link": ""
+  },
+  {
+    "latitude": "49.8422065",
+    "longitude": "24.0281389",
+    "title": "",
+    "titleCyrillic": "Пам'ятник львівськім броварям",
+    "date": "*",
+    "description": "",
+    "descriptionCyrillic": "Карта Львов -от святогорской горы до высокозамковой-. [43.2].",
+    "link": ""
+  },
+  {
+    "latitude": "49.8422584",
+    "longitude": "24.0283266",
+    "title": "",
+    "titleCyrillic": "Реконструкція вежі крамарів і фрагменту Високого муру",
+    "date": "*",
+    "description": "",
+    "descriptionCyrillic": "Карта Львов -от святогорской горы до высокозамковой-. [44.2].",
+    "link": ""
+  },
+  /*[45.2] див. [27.1]*/
+  /*[46.2] див. [28.1]*/
+  {
+    "latitude": "49.8412768",
+    "longitude": "24.0293354",
+    "title": "",
+    "titleCyrillic": "Пам'ятник Івану Підкові",
+    "date": "*",
+    "description": "",
+    "descriptionCyrillic": "Карта Львов -от святогорской горы до высокозамковой-. [47.2].",
+    "link": ""
+  },
+  {
+    "latitude": "49.841011",
+    "longitude": "24.028875",
+    "title": "",
+    "titleCyrillic": "Пам'ятник бравому солдату Швейку",
+    "date": "*",
+    "description": "",
+    "descriptionCyrillic": "Карта Львов -от святогорской горы до высокозамковой-. [48.2].",
+    "link": ""
+  },
+  {
+    "latitude": "49.8407257",
+    "longitude": "24.0305728",
+    "title": "",
+    "titleCyrillic": "Катедральний Собор Успіня Пречистої Матері Божої",
+    "date": "*",
+    "description": "",
+    "descriptionCyrillic": "Карта Львов -от святогорской горы до высокозамковой-. [49.2].",
+    "link": ""
+  },
+  {
+    "latitude": "49.8406788",
+    "longitude": "24.0310255",
+    "title": "",
+    "titleCyrillic": "Каплиця Боїмів",
+    "date": "04.08.2015",
+    "description": "",
+    "descriptionCyrillic": "Карта Львов -от святогорской горы до высокозамковой-. [50.2].",
+    "link": ""
+  },
+  /*[51.2] див. [26.1]*/
+  /*[52.2] див. [24.1]*/
+  {
+    "latitude": "49.8394383",
+    "longitude": "24.032552",
+    "title": "",
+    "titleCyrillic": "Пам'ятник королю Данилові Галицькому",
+    "date": "*",
+    "description": "",
+    "descriptionCyrillic": "Карта Львов -от святогорской горы до высокозамковой-. [53.2].",
+    "link": ""
+  },
+  /*{
+    "latitude": "49.838764",
+    "longitude": "24.033464",
+    "title": "",
+    "titleCyrillic": "Давній палац Бесядецьких (Потоцьких, Більских, Коморовських)",
+    "date": "Х",
+    "description": "",
+    "descriptionCyrillic": "Карта Львов -от святогорской горы до высокозамковой-. [54.2]. Нині: один з корпусів Львівського національного университету.",
+    "link": ""
+  },*/
+  {
+    "latitude": "49.8380337",
+    "longitude": "24.0318827",
+    "title": "",
+    "titleCyrillic": "Пам'ятник Володимиру Івасюку",
+    "date": "*",
+    "description": "",
+    "descriptionCyrillic": "Карта Львов -от святогорской горы до высокозамковой-. [55.2].",
+    "link": ""
+  },
+  {
+    "latitude": "49.841900",
+    "longitude": "24.029639",
+    "title": "",
+    "titleCyrillic": "Три Мітли",
+    "date": "*",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
+  },
+  {
+    "latitude": "49.842110",
+    "longitude": "24.029838",
+    "title": "",
+    "titleCyrillic": "Шоколадка",
+    "date": "*",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
+  },
+  {
+    "latitude": "49.842152",
+    "longitude": "24.030036",
+    "title": "",
+    "titleCyrillic": "Штрудель Хаус",
+    "date": "06.01.2015",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
+  },
+  {
+    "latitude": "49.839651",
+    "longitude": "24.031697",
+    "title": "",
+    "titleCyrillic": "Credens cafe",
+    "date": "*",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
+  },
+  {
+    "latitude": "49.843081",
+    "longitude": "24.026060",
+    "title": "",
+    "titleCyrillic": "Credens cafe",
+    "date": "*",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
+  },
+  {
+    "latitude": "49.840459",
+    "longitude": "24.026625",
+    "title": "",
+    "titleCyrillic": "Credens cafe",
+    "date": "*",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
+  },
+  {
+    "latitude": "49.842911",
+    "longitude": "24.026120",
+    "title": "",
+    "titleCyrillic": "McDonald's",
+    "date": "*",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
+  },
+  {
+    "latitude": "49.838055",
+    "longitude": "24.031378",
+    "title": "",
+    "titleCyrillic": "McDonald's",
+    "date": "*",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
+  },
+  {
+    "latitude": "49.843208",
+    "longitude": "24.032997",
+    "title": "Christopher",
+    "titleCyrillic": "Хрістофор",
+    "date": "31.07.2015",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
+  },
+  {
+    "latitude": "49.841926",
+    "longitude": "24.030524",
+    "title": "",
+    "titleCyrillic": "П'яльня горілки & пива",
+    "date": "*",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
+  },
+  {
+    "latitude": "49.840457",
+    "longitude": "24.030669",
+    "title": "",
+    "titleCyrillic": "Світ кави",
+    "date": "04.08.2015",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
+  },
+  {
+    "latitude": "49.846522",
+    "longitude": "24.025782",
+    "title": "Kumpel",
+    "titleCyrillic": "Кумпель",
+    "date": "*",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
+  },
+  {
+    "latitude": "49.839384",
+    "longitude": "24.035860",
+    "title": "Kumpel",
+    "titleCyrillic": "Кумпель",
+    "date": "*",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
+  },
+  {
+    "latitude": "49.842829",
+    "longitude": "24.028862",
+    "title": "Burgers Buffet",
+    "titleCyrillic": "Бургер буфет",
+    "date": "*",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
+  },
+  {
+    "latitude": "49.841551",
+    "longitude": "24.033005",
+    "title": "",
+    "titleCyrillic": "Манифест",
+    "date": "*",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
+  },
+  {
+    "latitude": "49.840164",
+    "longitude": "24.033897",
+    "title": "",
+    "titleCyrillic": "Букет вина",
+    "date": "*",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
+  },
+  {
+    "latitude": "49.840707",
+    "longitude": "24.032519",
+    "title": "",
+    "titleCyrillic": "Букет вина",
+    "date": "*",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
+  },
+  {
+    "latitude": "49.841715",
+    "longitude": "24.032730",
+    "title": "Lviv Coffee Mining Manufacture",
+    "titleCyrillic": "Львівська капальня кави",
+    "date": "*",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
+  },
+  {
+    "latitude": "49.840488",
+    "longitude": "24.026367",
+    "title": "Play BAR",
+    "titleCyrillic": "Плей бар",
+    "date": "*",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
+  },
+  {
+    "latitude": "49.840488",
+    "longitude": "24.026367",
+    "title": "Play BAR",
+    "titleCyrillic": "Плей бар",
+    "date": "*",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
+  },
+  {
+    "latitude": "49.843096",
+    "longitude": "24.023691",
+    "title": "Enjoy",
+    "titleCyrillic": "",
+    "date": "10.07.2015",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
+  },
+  {
+    "latitude": "49.841721",
+    "longitude": "24.023192",
+    "title": "",
+    "titleCyrillic": "Пиріжкова хата",
+    "date": "*",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
+  },
+  {
+    "latitude": "49.837722",
+    "longitude": "24.025572",
+    "title": "Lyft",
+    "titleCyrillic": "",
+    "date": "25.12.2014",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
+  },
+  {
+    "latitude": "49.843832",
+    "longitude": "24.026570",
+    "title": "Left Bank",
+    "titleCyrillic": "Фестеваль-ресторація *Лівий берег*",
+    "date": "*",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
+  },
+  {
+    "latitude": "49.842881",
+    "longitude": "24.030049",
+    "title": "Lazy Dog",
+    "titleCyrillic": "Ситий пес",
+    "date": "06.01.2015",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
+  },
+  {
+    "latitude": "49.841023",
+    "longitude": "24.034519",
+    "title": "",
+    "titleCyrillic": "Дім легенд",
+    "date": "*",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
+  },
+  {
+    "latitude": "49.843293",
+    "longitude": "24.028717",
+    "title": "",
+    "titleCyrillic": "Кінопалац",
+    "date": "08.08.2014",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
+  },
+  {
+    "latitude": "49.773500",
+    "longitude": "24.010083",
+    "title": "ТРЦ King Cross Leopolis",
+    "titleCyrillic": "",
+    "date": "*",
+    "description": "",
+    "descriptionCyrillic": "",
     "link": ""
   },
 ];
 var lviv = [];
 
 /*
-  new google.maps.LatLng(49.8395998,24.036963),  /* [31.2] Museum Iogana Pinzelja 
-  new google.maps.LatLng(49.8436155,24.0293321), /* [32.2] Cerkva Preobrazenija Gospodn'ogo 
-  new google.maps.LatLng(49.8433496,24.0301937), /* [33.2] Armjansky sobor 
-  new google.maps.LatLng(49.8432332,24.0306651), /* [33.2] Armjansky ansambl' 
-  new google.maps.LatLng(49.8427049,24.032317),  /* [34.2] Museum Apteka 'under black eagle' 
-  new google.maps.LatLng(49.841494,24.0318174),  /* [35.2] Pl. Runok 
-  new google.maps.LatLng(49.8411407,24.0332698), /* [37.2] Maisternya Shokolada 
-  new google.maps.LatLng(49.8393918,24.03444),   /* [38.2] Costel Bernardincev 
-  new google.maps.LatLng(49.8425959,24.028472),  /* [42.2] Palac Dedushinskih 
-  new google.maps.LatLng(49.8422065,24.0281389), /* [43.2] Pam. Lviv. Bromarjam 
-  new google.maps.LatLng(49.8422584,24.0283266), /* [44.2] Veza Kramariv 
-  new google.maps.LatLng(49.8412768,24.0293354), /* [47.2] Pam. Ivanu Podkovi 
-  new google.maps.LatLng(49.8407257,24.0305728), /* [49.2] Katedral'nii Sobor Usbeniya Prechistoi Materi Bozoi 
-  new google.maps.LatLng(49.8406788,24.0310255), /* [50.2] Kaplica Boimiv 
-  new google.maps.LatLng(49.8394383,24.032552),  /* [53.2] Pam. Damilu Galickomu 
-  new google.maps.LatLng(49.8380337,24.0318827), /* [55.2] Pam. V. Ivasyku 
-
-
 not visited
   new google.maps.LatLng(49.839512,24.0362414),  /* Park Olega Veschego 
   new google.maps.LatLng(49.8415245,24.035994),  /* Park 'na Valah' 
-
-  /* Lviv: ot svyatogorskoy gory do vysokozamkovoy 
-  new google.maps.LatLng(49.841306,24.032288),   /* [36.2] Kruivka 
-  new google.maps.LatLng(49.8430807,24.0281174), /* [41.2] Nac. museum 
-  new google.maps.LatLng(0,0),                   /* [54.2] Palac Besyadskih /not found/
-
-  /* Zaklady
-  3metly
-  Shokoladka
-  Strudel house
-  Credens cafe
-  Christofor
-  P'jalna
-  Svit cavy
-  Kumpel
-  Burger buffet
-  Manifest
-  Buket vina
-  Lviv copal'nja
-  Play bar
-  Play bar -> naproty
-  Enjoy
-  Pirozkova hata
-  Lyft
-  Livyi bereg
-  Sytyi pes
-  Dim legend
 */
