@@ -4,7 +4,7 @@ var jurjiwkaData = [
     "longitude": "37.204942",
     "title": "",
     "titleCyrillic": "ДОЦ Космос",
-    "date": "",
+    "date": "'97",
     "description": "",
     "descriptionCyrillic": "",
     "link": ""
@@ -14,7 +14,7 @@ var jurjiwkaData = [
     "longitude": "37.210986",
     "title": "",
     "titleCyrillic": "БО Смена",
-    "date": "",
+    "date": "'97",
     "description": "",
     "descriptionCyrillic": "",
     "link": ""

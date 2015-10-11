@@ -1,15 +1,115 @@
 var arkData = [
   {
-    "latitude": "43.443700",
-    "longitude": "41.744376",
+    "latitude": "44.387222",
+    "longitude": "33.738333",
     "title": "",
     "titleCyrillic": "Мыс Сарыч",
+    "date": "23.07.1999",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
+  },
+  {
+    "latitude": "44.3917826",
+    "longitude": "33.7828711",
+    "title": "",
+    "titleCyrillic": "Форос",
+    "date": "24.07.1999",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
+  },
+  {
+    "latitude": "44.618506",
+    "longitude": "33.524018",
+    "title": "",
+    "titleCyrillic": "Пам'ятник затопленим кораблям",
+    "date": "24.07.1999",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
+  },
+  {
+    "latitude": "44.617080",
+    "longitude": "33.526690",
+    "title": "",
+    "titleCyrillic": "Графская пристань",
+    "date": "24.07.1999",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
+  },
+  {
+    "latitude": "44.617100",
+    "longitude": "33.517080",
+    "title": "",
+    "titleCyrillic": "Графская пристань",
+    "date": "24.07.1999",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
+  },
+  {
+    "latitude": "44.612409",
+    "longitude": "33.490197",
+    "title": "",
+    "titleCyrillic": "Херсонес Таврийский",
+    "date": "2000",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
+  },
+  {
+    "latitude": "44.613084",
+    "longitude": "33.491962",
+    "title": "",
+    "titleCyrillic": "Херсонес, Колокол старины",
+    "date": "2000",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
+  },
+  {
+    "latitude": "44.495522",
+    "longitude": "34.168473",
+    "title": "Yalta",
+    "titleCyrillic": "Ялта. Набережная",
+    "date": "2000",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
+  },
+  {
+    "latitude": "44.498933",
+    "longitude": "34.160431",
+    "title": "Yalta",
+    "titleCyrillic": "Ялта. Канатная дорога",
     "date": "",
     "description": "",
     "descriptionCyrillic": "",
     "link": ""
   },
   {
+    "latitude": "44.419883",
+    "longitude": "34.055784",
+    "title": "",
+    "titleCyrillic": "Воронцовский дворец",
+    "date": "2000",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
+  },
+  {
+    "latitude": "44.430477",
+    "longitude": "34.128377",
+    "title": "",
+    "titleCyrillic": "Ласточкино гнездо",
+    "date": "2000",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
+  },
+/*  {
     "latitude": "44.6655417",
     "longitude": "34.4007384",
     "title": "",
@@ -104,16 +204,6 @@ var arkData = [
     "longitude": "35.378017",
     "title": "",
     "titleCyrillic": "Феодосия",
-    "date": "",
-    "description": "",
-    "descriptionCyrillic": "",
-    "link": ""
-  },
-  {
-    "latitude": "44.430474",
-    "longitude": "34.128384",
-    "title": "",
-    "titleCyrillic": "Ласточкино гнездо",
     "date": "",
     "description": "",
     "descriptionCyrillic": "",
@@ -280,6 +370,6 @@ var arkData = [
     "descriptionCyrillic": "",
     "link": ""
   },
-  */
+*/
 ];
 var ark = [];
