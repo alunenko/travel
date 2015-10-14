@@ -70,6 +70,46 @@ var arkData = [
     "link": ""
   },
   {
+    "latitude": "44.610440",
+    "longitude": "33.523432",
+    "title": "",
+    "titleCyrillic": "Sobor Svyatogo Ravnoapostolnogo knyazya Vladimira",
+    "date": "08.09.2005",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
+  },
+  {
+    "latitude": "44.499619",
+    "longitude": "33.600164",
+    "title": "",
+    "titleCyrillic": "Балаклава",
+    "date": "08.09.2005",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
+  },
+  {
+    "latitude": "44.4148274",
+    "longitude": "33.7099779",
+    "title": "",
+    "titleCyrillic": "Ласпи. Кемпинг",
+    "date": "09.2005",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
+  },
+  {
+    "latitude": "44.4071028",
+    "longitude": "33.7195235",
+    "title": "09.2005",
+    "titleCyrillic": "Ласпи. Прогулка",
+    "date": "",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
+  },
+  {
     "latitude": "44.495522",
     "longitude": "34.168473",
     "title": "Yalta",
@@ -105,6 +145,76 @@ var arkData = [
     "title": "",
     "titleCyrillic": "Ласточкино гнездо",
     "date": "2000",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
+  },
+  {
+    "latitude": "44.8554075",
+    "longitude": "34.8787315",
+    "title": "",
+    "titleCyrillic": "Веселое",
+    "date": "",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
+  },
+  {
+    "latitude": "44.8217762",
+    "longitude": "34.8701609",
+    "title": "",
+    "titleCyrillic": "Веселое. Кемпинг",
+    "date": "",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
+  },
+  {
+    "latitude": "44.8173075",
+    "longitude": "34.8981598",
+    "title": "",
+    "titleCyrillic": "Веселое. Тропа на Новый свет",
+    "date": "",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
+  },
+  {
+    "latitude": "44.820998",
+    "longitude": "34.904972",
+    "title": "",
+    "titleCyrillic": "Царский пляж",
+    "date": "",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
+  },
+  {
+    "latitude": "44.823548",
+    "longitude": "34.917047",
+    "title": "",
+    "titleCyrillic": "Грот Галицина",
+    "date": "",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
+  },
+  {
+    "latitude": "44.8299344",
+    "longitude": "34.9130898",
+    "title": "",
+    "titleCyrillic": "Новый свет",
+    "date": "",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
+  },
+  {
+    "latitude": "44.841492",
+    "longitude": "34.958022",
+    "title": "",
+    "titleCyrillic": "Генуэзская крепость",
+    "date": "",
     "description": "",
     "descriptionCyrillic": "",
     "link": ""
@@ -150,56 +260,6 @@ var arkData = [
     "link": ""
   },
   {
-    "latitude": "44.8554075",
-    "longitude": "34.8787315",
-    "title": "",
-    "titleCyrillic": "Веселое",
-    "date": "",
-    "description": "",
-    "descriptionCyrillic": "",
-    "link": ""
-  },
-  {
-    "latitude": "44.8217762",
-    "longitude": "34.8701609",
-    "title": "",
-    "titleCyrillic": "Веселое. Кемпинг",
-    "date": "",
-    "description": "",
-    "descriptionCyrillic": "",
-    "link": ""
-  },
-  {
-    "latitude": "44.8173075",
-    "longitude": "34.8981598",
-    "title": "",
-    "titleCyrillic": "Веселое. Тропа на Новый свет",
-    "date": "",
-    "description": "",
-    "descriptionCyrillic": "",
-    "link": ""
-  },
-  {
-    "latitude": "44.8299344",
-    "longitude": "34.9130898",
-    "title": "",
-    "titleCyrillic": "Новый свет",
-    "date": "",
-    "description": "",
-    "descriptionCyrillic": "",
-    "link": ""
-  },
-  {
-    "latitude": "44.857683",
-    "longitude": "34.9749509",
-    "title": "",
-    "titleCyrillic": "Судак",
-    "date": "",
-    "description": "",
-    "descriptionCyrillic": "",
-    "link": ""
-  },
-  {
     "latitude": "45.050641",
     "longitude": "35.378017",
     "title": "",
@@ -219,42 +279,12 @@ var arkData = [
     "descriptionCyrillic": "",
     "link": ""
   },
-  {
-    "latitude": "44.4148274",
-    "longitude": "33.7099779",
-    "title": "",
-    "titleCyrillic": "Ласпи. Кемпинг",
-    "date": "",
-    "description": "",
-    "descriptionCyrillic": "",
-    "link": ""
-  },
-  {
-    "latitude": "44.4071028",
-    "longitude": "33.7195235",
-    "title": "",
-    "titleCyrillic": "Ласпи. Прогулка",
-    "date": "",
-    "description": "",
-    "descriptionCyrillic": "",
-    "link": ""
-  },
   /*
   {
     "latitude": "44.6142155",
     "longitude": "33.6380221",
     "title": "",
     "titleCyrillic": "Sevastopol",
-    "date": "",
-    "description": "",
-    "descriptionCyrillic": "",
-    "link": ""
-  },
-  {
-    "latitude": "44.499619",
-    "longitude": "33.600164",
-    "title": "",
-    "titleCyrillic": "Balaklava",
     "date": "",
     "description": "",
     "descriptionCyrillic": "",

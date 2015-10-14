@@ -4,7 +4,7 @@ var sopinoData = [
     "longitude": "37.759656",
     "title": "",
     "titleCyrillic": "Пансионат Надежда",
-    "date": "",
+    "date": "06-07.2002",
     "description": "",
     "descriptionCyrillic": "",
     "link": ""

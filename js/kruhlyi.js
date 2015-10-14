@@ -4,7 +4,7 @@ var kruhlyiData = [
     "longitude": "24.187543",
     "title": "",
     "titleCyrillic": "Центр Европы",
-    "date": "",
+    "date": "29.09.2002",
     "description": "",
     "descriptionCyrillic": "",
     "link": ""
