@@ -20,10 +20,20 @@ var arkData = [
     "link": ""
   },
   {
-    "latitude": "44.618506",
-    "longitude": "33.524018",
+    "latitude": "44.618368",
+    "longitude": "33.524180",
     "title": "",
     "titleCyrillic": "Пам'ятник затопленим кораблям",
+    "date": "24.07.1999",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
+  },
+  {
+    "latitude": "44.612998",
+    "longitude": "33.516895",
+    "title": "",
+    "titleCyrillic": "Памятник в честь 300-летия Российского флота",
     "date": "24.07.1999",
     "description": "",
     "descriptionCyrillic": "",
@@ -40,10 +50,10 @@ var arkData = [
     "link": ""
   },
   {
-    "latitude": "44.617100",
-    "longitude": "33.517080",
+    "latitude": "44.617236",
+    "longitude": "33.522199",
     "title": "",
-    "titleCyrillic": "Графская пристань",
+    "titleCyrillic": "Обзор бухты и Обелиск Городу-герою Севастополю",
     "date": "24.07.1999",
     "description": "",
     "descriptionCyrillic": "",
@@ -74,7 +84,7 @@ var arkData = [
     "longitude": "33.523432",
     "title": "",
     "titleCyrillic": "Sobor Svyatogo Ravnoapostolnogo knyazya Vladimira",
-    "date": "08.09.2005",
+    "date": "10.09.2005",
     "description": "",
     "descriptionCyrillic": "",
     "link": ""
@@ -84,7 +94,7 @@ var arkData = [
     "longitude": "33.600164",
     "title": "",
     "titleCyrillic": "Балаклава",
-    "date": "08.09.2005",
+    "date": "10.09.2005",
     "description": "",
     "descriptionCyrillic": "",
     "link": ""
@@ -219,6 +229,136 @@ var arkData = [
     "descriptionCyrillic": "",
     "link": ""
   },
+  {
+    "latitude": "44.516621",
+    "longitude": "34.262319",
+    "title": "",
+    "titleCyrillic": "Ay-Danil - sanatorno-kurortnyy ozdorovitelnyy kompleks",
+    "date": "25.08.2005",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
+  },
+  {
+    "latitude": "44.495954",
+    "longitude": "34.115038",
+    "title": "",
+    "titleCyrillic": "Поляна сказок",
+    "date": "25.08.2005",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
+  },
+  {
+    "latitude": "44.494546",
+    "longitude": "34.118514",
+    "title": "",
+    "titleCyrillic": "Зоопарк Сказка",
+    "date": "25.08.2005",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
+  },
+  {
+    "latitude": "44.5111841",
+    "longitude": "34.2356621",
+    "title": "Nikitsky Botanical Gardens",
+    "titleCyrillic": "",
+    "date": "25.08.2005",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
+  },
+  {
+    "latitude": "44.744162",
+    "longitude": "33.909842",
+    "title": "",
+    "titleCyrillic": "Бахчисарайский Свято-Успенский мужской монастырь",
+    "date": "08.2005",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
+  },
+  {
+    "latitude": "44.741426",
+    "longitude": "33.923038",
+    "title": "Chufut-Kale",
+    "titleCyrillic": "",
+    "date": "08.2005",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
+  },
+  {
+    "latitude": "44.748898",
+    "longitude": "33.881642",
+    "title": "The Khan's Palace",
+    "titleCyrillic": "",
+    "date": "08.2005",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
+  },
+  {
+    "latitude": "44.748877",
+    "longitude": "33.882491",
+    "title": "Biyuk Han Cami",
+    "titleCyrillic": "",
+    "date": "08.2005",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
+  },
+  {
+    "latitude": "44.467688",
+    "longitude": "34.143529",
+    "title": "",
+    "titleCyrillic": "Ливадийский Органный зал",
+    "date": "08.2005",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
+  },
+  {
+    "latitude": "44.447037",
+    "longitude": "34.056740",
+    "title": "",
+    "titleCyrillic": "Ай-Петри",
+    "date": "08.2005",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
+  },
+  {
+    "latitude": "44.870092",
+    "longitude": "34.343371",
+    "title": "",
+    "titleCyrillic": "Красная пещера",
+    "date": "08.2005",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
+  },
+  {
+    "latitude": "44.869359",
+    "longitude": "34.343797",
+    "title": "",
+    "titleCyrillic": "Водопад Су-Учхан",
+    "date": "08.2005",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
+  },
+  {
+    "latitude": "44.543227",
+    "longitude": "34.277276",
+    "title": "Goddess of Night fountain",
+    "titleCyrillic": "",
+    "date": "02.09.2005",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
+  },
 /*  {
     "latitude": "44.6655417",
     "longitude": "34.4007384",
@@ -269,62 +409,12 @@ var arkData = [
     "descriptionCyrillic": "",
     "link": ""
   },
-  {
-    "latitude": "44.79698",
-    "longitude": "34.278696",
-    "title": "",
-    "titleCyrillic": "Мраморная пещера",
-    "date": "",
-    "description": "",
-    "descriptionCyrillic": "",
-    "link": ""
-  },
   /*
-  {
-    "latitude": "44.6142155",
-    "longitude": "33.6380221",
-    "title": "",
-    "titleCyrillic": "Sevastopol",
-    "date": "",
-    "description": "",
-    "descriptionCyrillic": "",
-    "link": ""
-  },
   {
     "latitude": "44.946798",
     "longitude": "34.1092134",
     "title": "",
     "titleCyrillic": "Simferopol",
-    "date": "",
-    "description": "",
-    "descriptionCyrillic": "",
-    "link": ""
-  },
-  {
-    "latitude": "44.61117",
-    "longitude": "33.492118",
-    "title": "",
-    "titleCyrillic": "Hersones",
-    "date": "",
-    "description": "",
-    "descriptionCyrillic": "",
-    "link": ""
-  },
-  {
-    "latitude": "44.755538",
-    "longitude": "33.8670791",
-    "title": "",
-    "titleCyrillic": "Bakhchysarai",
-    "date": "",
-    "description": "",
-    "descriptionCyrillic": "",
-    "link": ""
-  },
-  {
-    "latitude": "44.391775",
-    "longitude": "33.7872484",
-    "title": "",
-    "titleCyrillic": "Foros",
     "date": "",
     "description": "",
     "descriptionCyrillic": "",
@@ -341,60 +431,10 @@ var arkData = [
     "link": ""
   },
   {
-    "latitude": "44.4713865",
-    "longitude": "34.1443075",
-    "title": "",
-    "titleCyrillic": "Livadiya",
-    "date": "",
-    "description": "",
-    "descriptionCyrillic": "",
-    "link": ""
-  },
-  {
-    "latitude": "44.514641",
-    "longitude": "34.18591",
-    "title": "",
-    "titleCyrillic": "Yalta",
-    "date": "",
-    "description": "",
-    "descriptionCyrillic": "",
-    "link": ""
-  },
-  {
     "latitude": "44.501716",
     "longitude": "34.1601309",
     "title": "",
     "titleCyrillic": "Masandra",
-    "date": "",
-    "description": "",
-    "descriptionCyrillic": "",
-    "link": ""
-  },
-  {
-    "latitude": "44.5111841",
-    "longitude": "34.2356621",
-    "title": "",
-    "titleCyrillic": "Nikitsky Botanical Garden",
-    "date": "",
-    "description": "",
-    "descriptionCyrillic": "",
-    "link": ""
-  },
-  {
-    "latitude": "44.5147121",
-    "longitude": "34.2484298",
-    "title": "",
-    "titleCyrillic": "Ai Danil",
-    "date": "",
-    "description": "",
-    "descriptionCyrillic": "",
-    "link": ""
-  },
-  {
-    "latitude": "44.547294",
-    "longitude": "34.2914851",
-    "title": "",
-    "titleCyrillic": "Gurzuf",
     "date": "",
     "description": "",
     "descriptionCyrillic": "",
