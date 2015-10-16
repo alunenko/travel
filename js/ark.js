@@ -359,11 +359,31 @@ var arkData = [
     "descriptionCyrillic": "",
     "link": ""
   },
-/*  {
-    "latitude": "44.6655417",
-    "longitude": "34.4007384",
+  {
+    "latitude": "44.672317",
+    "longitude": "34.415655",
     "title": "",
-    "titleCyrillic": "Алушта",
+    "titleCyrillic": "Арка",
+    "date": "",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
+  },
+  {
+    "latitude": "44.639261",
+    "longitude": "34.395886",
+    "title": "",
+    "titleCyrillic": "Кристалл",
+    "date": "",
+    "description": "",
+    "descriptionCyrillic": "",
+    "link": ""
+  },
+  {
+    "latitude": "44.517105",
+    "longitude": "34.202689",
+    "title": "",
+    "titleCyrillic": "Массандровский дворец",
     "date": "",
     "description": "",
     "descriptionCyrillic": "",
@@ -379,7 +399,7 @@ var arkData = [
     "descriptionCyrillic": "",
     "link": ""
   },
-  {
+/*  {
     "latitude": "44.7363802",
     "longitude": "34.2822222",
     "title": "",
@@ -415,26 +435,6 @@ var arkData = [
     "longitude": "34.1092134",
     "title": "",
     "titleCyrillic": "Simferopol",
-    "date": "",
-    "description": "",
-    "descriptionCyrillic": "",
-    "link": ""
-  },
-  {
-    "latitude": "44.4174669",
-    "longitude": "34.043093",
-    "title": "",
-    "titleCyrillic": "Alupka",
-    "date": "",
-    "description": "",
-    "descriptionCyrillic": "",
-    "link": ""
-  },
-  {
-    "latitude": "44.501716",
-    "longitude": "34.1601309",
-    "title": "",
-    "titleCyrillic": "Masandra",
     "date": "",
     "description": "",
     "descriptionCyrillic": "",
