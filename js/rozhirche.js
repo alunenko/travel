@@ -4,7 +4,7 @@ var rozhircheData = [
 	    "longitude": "23.7004163",
 	    "title": "",
 	    "titleCyrillic": "Печерний монастир",
-	    "date": "30.04.2018",
+	    "date": "28.04.2018",
 	    "description": "",
 	    "descriptionCyrillic": "",
 	    "link": ""

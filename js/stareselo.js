@@ -4,7 +4,7 @@ var stareseloData = [
 	    "longitude": "24.1944476",
 	    "title": "",
 	    "titleCyrillic": "Старосільський замок",
-	    "date": "30.04.2018",
+	    "date": "29.04.2018",
 	    "description": "",
 	    "descriptionCyrillic": "",
 	    "link": ""
