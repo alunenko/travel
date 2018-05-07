@@ -50,7 +50,8 @@ var ukraine = [
   lviv,
   svirzh,
   univ,
-  stareselo
+  stareselo,
+  rozhirche
 ];
 
 var poland = [
@@ -112,6 +113,7 @@ var datas = [
   ['svirzhData', 'svirzh'],
   ['univData', 'univ'],
   ['stareseloData', 'stareselo'],
+  ['rozhircheData', 'rozhirche'],
   ['warsawData', 'warsaw'],
   ['eindhovenData', 'eindhoven'],
   ['amsterdamData', 'amsterdam']
