@@ -48,6 +48,9 @@ var ukraine = [
   yaremche,
   mukacheve,
   lviv,
+  svirzh,
+  univ,
+  stareselo
 ];
 
 var poland = [
@@ -106,6 +109,9 @@ var datas = [
   ['yaremcheData', 'yaremche'],
   ['mukacheveData', 'mukacheve'],
   ['lvivData', 'lviv'],
+  ['svirzhData', 'svirzh'],
+  ['univData', 'univ'],
+  ['stareseloData', 'stareselo'],
   ['warsawData', 'warsaw'],
   ['eindhovenData', 'eindhoven'],
   ['amsterdamData', 'amsterdam']
@@ -194,7 +200,7 @@ function mycontent(map, mapPoints) {
 
   marker.infoWindowData = mapPoints;
 
-  google.maps.event.addListener(marker, 'click', function() {debugger;
+  google.maps.event.addListener(marker, 'click', function() {
     var infowindow = new google.maps.InfoWindow({
       content: marker.infoWindowData.contentString
     });
