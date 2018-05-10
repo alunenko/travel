@@ -63,6 +63,18 @@ var netherlands = [
   amsterdam
 ];
 
+var czech_republic = [
+  prague
+];
+
+var france = [
+  nice
+];
+
+var monaco = [
+  monteCarlo
+];
+
 var datas = [
   ['saintPetersburgData', 'saintPetersburg'],
   ['rostovOnDonData', 'rostovOnDon'],
@@ -115,6 +127,9 @@ var datas = [
   ['stareseloData', 'stareselo'],
   ['rozhircheData', 'rozhirche'],
   ['warsawData', 'warsaw'],
+  ['pragueData', 'prague'],
+  ['niceData', 'nice'],
+  ['monteCarloData', 'monteCarlo'],
   ['eindhovenData', 'eindhoven'],
   ['amsterdamData', 'amsterdam']
 ];
@@ -165,7 +180,10 @@ var mapPoints = [
   russia,
   ukraine,
   poland,
-  netherlands
+  netherlands,
+  czech_republic,
+  france,
+  monaco
 ];
 
 function initialize() {
